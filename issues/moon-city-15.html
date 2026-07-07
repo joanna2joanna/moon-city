@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, initial-scale=1.0">
+<title>张走走想在月球盖座城 #15</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+
+  :root {
+    --bg:        #162440;
+    --gold:      #E8C565;
+    --silver:    #8CB8D8;
+    --text:      #E4EAF2;
+    --muted:     #8899B5;
+    --divider:   #253D5B;
+    --accent:    #7FC4A0;
+    --soil:      #D4A860;
+    --box-bg:    #2E4D70;
+  }
+
+  body {
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    width: 1080px;
+    height: 1350px;
+    padding: 32px 72px 56px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .brand {
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  .brand span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #CDE0F0;
+    background: linear-gradient(135deg, rgba(59,107,138,0.8) 0%, rgba(74,111,160,0.6) 100%);
+    padding: 12px 28px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+  }
+
+  .title {
+    font-size: 100px;
+    font-weight: 900;
+    color: var(--gold);
+    line-height: 1.08;
+    margin-bottom: 18px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .block { margin-bottom: 12px; }
+
+  .block .head {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--silver);
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+
+  .block .text {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.58;
+    text-wrap: pretty;
+  }
+  .text strong { color: var(--gold); font-weight: 700; }
+
+  .highlight {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 16px;
+  }
+  .highlight .text { font-size: 25px; }
+
+  .insight {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 16px;
+  }
+  .insight .tag {
+    font-size: 30px;
+    color: var(--soil);
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .insight .text { font-size: 25px; }
+
+  .ref {
+    font-size: 20px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+
+  <div class="brand">
+    <span>张走走想在月球盖座城</span>
+  </div>
+
+  <div class="title">月球通话慢一秒</div>
+
+  <div class="block">
+    <div class="head">1.3秒的墙</div>
+    <div class="text">
+      地月平均距离38万公里，光速往返约<strong>2.6秒</strong>，单向延迟1.3秒。这是物理常数，不可逾越。任何问答之间至少空2.6秒——视频通话不可能是地球上的对话节奏，更像<strong>对讲机模式</strong>：说完放下，候着回音。数据传输不受此限，大文件、视频流可以单向灌满带宽，但实时对话必须在1.3秒的墙面前重组节奏。
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="head">深空网络和激光通信</div>
+    <div class="text">
+      NASA深空网络运行超60年，三座70米天线分置全球，保证至少一座时刻对准深空。传统射频月地带宽在<strong>几十Mbps</strong>量级。激光通信已获验证：LCRD和Psyche任务深空光通信试验，<strong>带宽比射频高10到100倍</strong>。月球城市日常数据用激光，紧急指令留射频备份。
+    </div>
+  </div>
+
+  <div class="highlight">
+    <div class="text">1.3秒的信息墙永远推不倒。真正的月球互联网，必须活在两个时区里。</div>
+  </div>
+
+  <div class="block">
+    <div class="head">本地网才是刚需</div>
+    <div class="text">
+      城市内部通信不必经过地球。月面基站加中继卫星搭起<strong>毫秒级本地局域网</strong>。无法容忍1.3秒延迟的操作——远程手术、机械臂控制、自动驾驶——须在本地处理。DTN（容延迟网络）协议已在ISS验证，专治长延迟和链路中断，<strong>是月地互联网核心协议</strong>。
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="tag">🏗 总结一下</div>
+    <div class="text">月球城市信息架构分两层：对外靠激光加DTN协议接受1.3秒现实，对内建毫秒级本地网。两层之间的时差，就是月亮永远的距离感。</div>
+  </div>
+
+  <div class="ref">
+    参考文献：<br>
+    [1] D.S. Abraham (2023) The Deep Space Network: History and future. <i>Proceedings of the IEEE</i>, 111(8), 934–953.<br>
+    [2] Boroson D.M. et al. (2014) Overview of the Lunar Laser Communication Demonstration. <i>Proc. SPIE</i>, 8971, 89710S.
+  </div>
+
+</body>
+</html>

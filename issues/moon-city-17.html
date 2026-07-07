@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, initial-scale=1.0">
+<title>张走走想在月球盖座城 #17</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+
+  :root {
+    --bg:        #162440;
+    --gold:      #E8C565;
+    --silver:    #8CB8D8;
+    --text:      #E4EAF2;
+    --muted:     #8899B5;
+    --divider:   #253D5B;
+    --accent:    #7FC4A0;
+    --soil:      #D4A860;
+    --box-bg:    #2E4D70;
+  }
+
+  body {
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    width: 1080px;
+    height: 1350px;
+    padding: 44px 72px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .brand {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .brand span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #CDE0F0;
+    background: linear-gradient(135deg, rgba(59,107,138,0.8) 0%, rgba(74,111,160,0.6) 100%);
+    padding: 12px 28px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+  }
+
+  .title {
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--gold);
+    line-height: 1.08;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .block { margin-bottom: 16px; }
+
+  .block .head {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--silver);
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+
+  .block .text {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.58;
+    text-wrap: pretty;
+  }
+  .text strong { color: var(--gold); font-weight: 700; }
+
+  .highlight {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 16px;
+  }
+  .highlight .text { font-size: 25px; }
+
+  .insight {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 20px;
+  }
+  .insight .tag {
+    font-size: 30px;
+    color: var(--soil);
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .insight .text { font-size: 25px; }
+
+  .ref {
+    font-size: 20px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+
+  <div class="brand">
+    <span>张走走想在月球盖座城</span>
+  </div>
+
+  <div class="title">月球导航怎么指路</div>
+
+  <div class="block">
+    <div class="head">指南针为什么报废</div>
+    <div class="text">
+      月球<strong>没有全球磁场</strong>。内部铁核太小且早已凝固，无法像地核那样驱动发电机效应。地球上最基础的导航工具——指南针——在月球彻底报废。局部月壳残磁强度不及地球千分之一，分布零散且方向不一致，不可用于定向。地球上的地磁导航思维在月球第一秒就撞了墙。
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="head">三套系统互为备份</div>
+    <div class="text">
+      替代方案三条腿走路：<strong>星敏感器</strong>（通过恒星位置定姿，阿波罗时代已使用）、<strong>惯性导航</strong>（加速度计加陀螺仪积分推算位置，短途可靠但随时间漂移）、<strong>无线电测距</strong>（月面信标加轨道中继，类似地球GPS但星座小得多）。NASA的LuGRE实验已于2025年验证月球轨道接收地球GPS信号可行性。
+    </div>
+  </div>
+
+  <div class="highlight">
+    <div class="text">月球上没有北。所有方向都得从头定义——是麻烦，也是清零重来的自由。</div>
+  </div>
+
+  <div class="block">
+    <div class="head">从着陆到逛街都得定位</div>
+    <div class="text">
+      精确着陆靠<strong>地形相对导航</strong>：下降相机实时拍摄月表，与预存地图比对，修正位置偏差。月面日常通勤则依赖<strong>局部信标网</strong>：在关键区域布设射频基站，配合视觉SLAM算法，实现米级定位。未来月球城市还需一套统一的<strong>月球坐标系统</strong>，把经纬度和海拔讲清楚。
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="tag">🏗 总结一下</div>
+    <div class="text">月球导航得放弃地磁这个老伙计，转向星光、惯性和无线电三重体系。地基在星图，天花板在局部信标密度——建到哪儿就得布到哪儿，没有捷径。</div>
+  </div>
+
+  <div class="ref">
+    参考文献：<br>
+    [1] Winternitz L. et al. (2024) Lunar GNSS: LuGRE mission overview. <i>ION GNSS+ 2024</i>, Baltimore, MD.<br>
+    [2] Johnson A.E. & Montgomery J.F. (2008) Terrain relative navigation for precision landing. <i>AIAA GNC Conference</i>, AIAA 2008-7473.
+  </div>
+
+</body>
+</html>

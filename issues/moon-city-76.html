@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>张走走想在月球盖座城 #76</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; height: 1350px; overflow: hidden;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">地质 · 03</div>
+<div class="title">月壳薄厚差一倍</div>
+
+<div class="block">
+  <div class="head">背面比正面厚一倍</div>
+  <div class="text">GRAIL双星测绘显示，正面月壳平均30到40公里，背面厚达60到70公里，<strong>几乎差一倍</strong>。不对称与月球被地球潮汐锁定、早期冷却不均有关，也解释了为什么背面几乎没有月海。</div>
+</div>
+
+<div class="block">
+  <div class="head">厚度决定了火山往哪走</div>
+  <div class="text">月壳越厚，玄武岩岩浆越难穿透。正面壳薄，岩浆畅通喷出大片月海；背面壳厚超50公里，<strong>多数岩浆还没到表面就卡在深处</strong>冷却了。厚度差这几十公里，画出正背两面判若两颗星球。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">南极-艾特肯盆地是月壳最薄处，局部几乎为零——一次巨型撞击掀掉了整个壳。但奇怪的是这里月海反而少，<strong>壳薄不等于岩浆就一定能顺利上来。</strong></div>
+</div>
+
+<div class="ref">参考文献：<br>[1] Wieczorek M.A. et al. (2013) The crust of the Moon as seen by GRAIL. <i>Science</i>, 339, 671–675.<br>[2] Head J.W. et al. (2024) Lunar nearside-farside mare basalt asymmetry. <i>Geophysical Research Letters</i>, 51, e2024GL110510.</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+</body>
+</html>

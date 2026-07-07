@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>张走走想在月球盖座城 #71</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; height: 1350px; overflow: hidden;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">引力 · 02</div>
+<div class="title">月球引力不均匀</div>
+
+<div class="block">
+  <div class="head">轨道偷偷漏了底</div>
+  <div class="text">1966年，JPL追踪月球轨道器时撞见怪事——飞过某些环形山上空，探测器<strong>突然下坠再弹回来</strong>。不是故障，是脚下引力突然大了。科学家管这些月面之下的超密团块叫质量瘤。</div>
+</div>
+
+<div class="block">
+  <div class="head">三亿年还没抹平</div>
+  <div class="text">2012年GRAIL双星发现，质量瘤是三层靶心：中央高引力、中环低、外环再高。陨石几十亿年前撞穿月壳，地幔物质涌上来，<strong>被月壳锁在原地</strong>。地球板块翻面抹平一切，月球做不到。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">月球的质心和几何中心<strong>差了约两公里</strong>——正面地壳薄、密度大，背面厚而轻。引力意义上，它歪得离谱。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] Muller P.M. & Sjogren W.L. (1968) Mascons: Lunar Mass Concentrations. <i>Science</i>, 161(3842), 680–684.<br>[2] Melosh H.J. et al. (2013) The Origin of Lunar Mascon Basins. <i>Science</i>, 340(6140), 1552–1555.</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+</body>
+</html>

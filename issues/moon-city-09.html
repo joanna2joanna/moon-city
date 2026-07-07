@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, initial-scale=1.0">
+<title>张走走想在月球盖座城 #09</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+
+  :root {
+    --bg:        #162440;
+    --gold:      #E8C565;
+    --silver:    #8CB8D8;
+    --text:      #E4EAF2;
+    --muted:     #8899B5;
+    --divider:   #253D5B;
+    --accent:    #7FC4A0;
+    --soil:      #D4A860;
+    --box-bg:    #2E4D70;
+  }
+
+  body {
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    width: 1080px;
+    height: 1350px;
+    padding: 44px 72px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .brand {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .brand span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #CDE0F0;
+    background: linear-gradient(135deg, rgba(59,107,138,0.8) 0%, rgba(74,111,160,0.6) 100%);
+    padding: 12px 28px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+  }
+
+  .title {
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--gold);
+    line-height: 1.08;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .block { margin-bottom: 16px; }
+
+  .block .head {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--silver);
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+
+  .block .text {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.58;
+    text-wrap: pretty;
+  }
+  .text strong { color: var(--gold); font-weight: 700; }
+
+  .highlight {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 16px;
+  }
+  .highlight .text { font-size: 25px; }
+
+  .insight {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 20px;
+  }
+  .insight .tag {
+    font-size: 30px;
+    color: var(--soil);
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .insight .text { font-size: 25px; }
+
+  .ref {
+    font-size: 20px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+
+  <div class="brand">
+    <span>张走走想在月球盖座城</span>
+  </div>
+
+  <div class="title">月球能源从哪来</div>
+
+  <div class="block">
+    <div class="head">太阳能够用吗</div>
+    <div class="text">
+      月球表面无大气衰减，太阳辐照强度约为<strong>地球的3倍</strong>，光伏板效率极高。但月昼持续地球14天，月夜同样14天完全黑暗——光伏只能在半个周期工作。城市不能只靠太阳能，需要基荷电源填补月夜空缺。小型核裂变反应堆（如NASA Kilopower，10kW级）是当前最成熟方案，不受昼夜影响，单台可供数个居住舱。
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="head">氦三有多远</div>
+    <div class="text">
+      太阳风将氦三注入月壤表层，<strong>储量估测百万吨级</strong>。氦三聚变几乎不产生中子辐射，是理论上最清洁的核能。但地球上尚未实现稳态聚变发电，氦三聚变点火条件更苛刻。短期不应押注氦三——<strong>它属于22世纪</strong>，不是2040年代的月球城市该指望的。务实路线：太阳能做主力，核裂变做基荷。
+    </div>
+  </div>
+
+  <div class="highlight">
+    <div class="text">月球不缺能源，缺的是连续供能。太阳能加核裂变，是2040年代的最优解。</div>
+  </div>
+
+  <div class="block">
+    <div class="head">电网怎么铺</div>
+    <div class="text">
+      月表温差近300°C，电缆须耐极端热胀冷缩。高压直流适合长距离，从极区永昼电站输往赤道居住区。月夜储能两条路：<strong>氢燃料电池</strong>电解水制氢再发电，以及<strong>飞轮储能</strong>利用低重力下摩擦损耗小的优势。城市微网须冗余设计——任何单点故障都不能让全城进入黑暗。
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="tag">🏗 总结一下</div>
+    <div class="text">月球城市能源系统应走渐进路线：光伏先行、核堆跟进、氦三留给22世纪。优先选址南极常年光照区，让太阳多照一会是一会。</div>
+  </div>
+
+  <div class="ref">
+    参考文献：<br>
+    [1] NASA (2018) Kilopower Project: Fission Surface Power for Lunar Missions. Glenn Research Center.<br>
+    [2] Crawford I.A. (2015) Lunar resources: A review. <i>Progress in Physical Geography</i>, 39(2), 137–167.
+  </div>
+
+</body>
+</html>

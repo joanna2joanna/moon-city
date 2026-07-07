@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>张走走想在月球盖座城 #72</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; height: 1350px; overflow: hidden;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">引力 · 03</div>
+<div class="title">月面一抛飞老远</div>
+
+<div class="block">
+  <div class="head">同一把力气，飞出六倍远</div>
+  <div class="text">月面重力只有地球六分之一，重量越轻射得越远。同一力道挥棒，地面飞120米的球在月面能飞到<strong>将近700米</strong>。没有大气层减速，风阻为零，每一抛都是纯弹道弧线。</div>
+</div>
+
+<div class="block">
+  <div class="head">月面是天然太空发射台</div>
+  <div class="text">月球逃逸速度每秒2.38公里，不到地球五分之一。没有大气挡路，超过这个速度就能<strong>脱离月球直奔深空</strong>。从月面出发比地面爬引力井省燃料得多，因此成了深空最划算的跳板。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">阿波罗14号谢泼德月面挥了杆高尔夫，飞出约180米。宇航服太笨重，单手抡不开，好几公里只是玩笑。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] Williams D.R. (2024) Moon Fact Sheet. <i>nssdc.gsfc.nasa.gov</i>.<br>[2] Apollo 14 Lunar Surface Journal (1971) Golf Shot. <i>nasa.gov</i>.</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+</body>
+</html>

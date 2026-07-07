@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, initial-scale=1.0">
+<title>张走走想在月球盖座城 #37</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+
+  :root {
+    --bg:        #162440;
+    --gold:      #E8C565;
+    --silver:    #8CB8D8;
+    --text:      #E4EAF2;
+    --muted:     #8899B5;
+    --divider:   #253D5B;
+    --accent:    #7FC4A0;
+    --soil:      #D4A860;
+    --box-bg:    #2E4D70;
+  }
+
+  body {
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    width: 1080px;
+    height: 1350px;
+    padding: 32px 72px 56px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .brand {
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  .brand span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #CDE0F0;
+    background: linear-gradient(135deg, rgba(59,107,138,0.8) 0%, rgba(74,111,160,0.6) 100%);
+    padding: 12px 28px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+  }
+
+  .title {
+    font-size: 100px;
+    font-weight: 900;
+    color: var(--gold);
+    line-height: 1.08;
+    margin-bottom: 18px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .block { margin-bottom: 12px; }
+
+  .block .head {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--silver);
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+
+  .block .text {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.58;
+    text-wrap: pretty;
+  }
+  .text strong { color: var(--gold); font-weight: 700; }
+
+  .highlight {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 16px;
+  }
+  .highlight .text { font-size: 25px; }
+
+  .insight {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 16px;
+  }
+  .insight .tag {
+    font-size: 30px;
+    color: var(--soil);
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .insight .text { font-size: 25px; }
+
+  .ref {
+    font-size: 20px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+
+  <div class="brand">
+    <span>张走走想在月球盖座城</span>
+  </div>
+
+  <div class="title">月球一震小半天</div>
+
+  <div class="block">
+    <div class="head">月震分四类</div>
+    <div class="text">
+      阿波罗任务在月表安放了五台地震仪，组成首个地外台网，运行至1977年，记录到数千次月震。按成因分为四类：深源月震最深达<strong>1200公里</strong>，由地球潮汐力规律触发；热月震出现在日出后，月壳受热膨胀发出微响；撞击月震来自陨石；最烈的是浅源月震，少数达到里氏5.5级，足以让月球城市感受到明显晃动。
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="head">没有水，停不下来</div>
+    <div class="text">
+      地球上地震一般持续数秒到几十秒便消散。月球不同——干燥月壳中没有液态水，剪切波几乎不受衰减。月震信号反复遇界面反射与折射，能在月壳里回荡<strong>数十分钟到数小时</strong>。阿波罗地震仪记录到的最长信号持续超过四小时。不是震得猛，是信号困在月壳里停不住。
+    </div>
+  </div>
+
+  <div class="highlight">
+    <div class="text">地震几秒收场，月震一响回荡数小时——不是月壳脆弱，是太干了。</div>
+  </div>
+
+  <div class="block">
+    <div class="head">城市扛得住吗</div>
+    <div class="text">
+      浅源月震最大5.5级听起来不小，但月震释放的总能量远低于同级地震，晃动幅度有限。建筑真正需要应对的是<strong>持久微颤</strong>——类似一座永不停歇的工业振动台。月城结构宜采用弹性连接和阻尼节点，避免刚性焊接在反复微振动中疲劳开裂。地基选月海玄武岩，避开松散撞击角砾岩层。抗震不防水，月球本就没有液态水可防。
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="tag">🏗 总结一下</div>
+    <div class="text">月震不烈却很长。干燥月壳让剪切波衰减极慢，一震数十分钟到数小时。月球城市不惧震颤本身，但要学会与永不收场的轻晃共处——不是抗震，是抗疲劳。</div>
+  </div>
+
+  <div class="ref">
+    参考文献：<br>
+    [1] Nakamura Y. et al. (1979) Apollo Lunar Seismic Experiment — Final Summary. <i>Journal of Geophysical Research</i>, 84(B4).<br>
+    [2] Lognonné P. &amp; Johnson C.L. (2007) Planetary Seismology. <i>Treatise on Geophysics</i>, 10, 69–122.
+  </div>
+
+</body>
+</html>

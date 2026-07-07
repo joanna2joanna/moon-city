@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080, initial-scale=1.0">
+<title>张走走想在月球盖座城 #36</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+
+  :root {
+    --bg:        #162440;
+    --gold:      #E8C565;
+    --silver:    #8CB8D8;
+    --text:      #E4EAF2;
+    --muted:     #8899B5;
+    --divider:   #253D5B;
+    --accent:    #7FC4A0;
+    --soil:      #D4A860;
+    --box-bg:    #2E4D70;
+  }
+
+  body {
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    width: 1080px;
+    height: 1350px;
+    padding: 32px 72px 56px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .brand {
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  .brand span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #CDE0F0;
+    background: linear-gradient(135deg, rgba(59,107,138,0.8) 0%, rgba(74,111,160,0.6) 100%);
+    padding: 12px 28px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+  }
+
+  .title {
+    font-size: 100px;
+    font-weight: 900;
+    color: var(--gold);
+    line-height: 1.08;
+    margin-bottom: 18px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .block { margin-bottom: 12px; }
+
+  .block .head {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--silver);
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+
+  .block .text {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.58;
+    text-wrap: pretty;
+  }
+  .text strong { color: var(--gold); font-weight: 700; }
+
+  .highlight {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 16px;
+  }
+  .highlight .text { font-size: 25px; }
+
+  .insight {
+    background: var(--box-bg);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin-bottom: 16px;
+  }
+  .insight .tag {
+    font-size: 30px;
+    color: var(--soil);
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .insight .text { font-size: 25px; }
+
+  .ref {
+    font-size: 20px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+
+  <div class="brand">
+    <span>张走走想在月球盖座城</span>
+  </div>
+
+  <div class="title">月球只露半张脸</div>
+
+  <div class="block">
+    <div class="head">引力踩了数十亿年刹车</div>
+    <div class="text">
+      月球绕地球公转一周需27.3天，自转一周恰好也是27.3天。这不是巧合——引力在数十亿年里反复对自转施加潮汐制动。地球引力在月壳上拉出微小隆起，每当隆起偏离地月连线，引力便将其往回拽。自转每跑快一点就被踩一脚刹车，直到公转与自转<strong>完全同步</strong>，月球从此只以一面朝向地球。
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="head">月亮偷偷多给了9%</div>
+    <div class="text">
+      但"只露半张脸"并不精确。月球公转轨道是椭圆，速度时快时慢，自转却保持匀速——快慢错位使月面微微左右摇摆，此为经度天平动。加上轨道倾角带来的上下摇摆（纬度天平动），地面观测者实际能看到月球表面的<strong>59%</strong>，而非50%。这是引力锁定的天然缝隙，多送出来的9%。
+    </div>
+  </div>
+
+  <div class="highlight">
+    <div class="text">潮汐锁定不是例外。太阳系里稍大的卫星，几乎全部走到了同一个尽头。</div>
+  </div>
+
+  <div class="block">
+    <div class="head">背面第一眼，1959</div>
+    <div class="text">
+      人类直到1959年才首次窥见月球背面——苏联月球3号探测器传回17张模糊照片。背面月壳更厚、月海更少，撞击坑密布，地貌与正面截然不同。1968年阿波罗8号宇航员成为第一批亲眼目睹背面的人类。2019年，中国嫦娥四号在背面南极-艾特肯盆地完成<strong>人类首次软着陆</strong>，至今仍在运行。
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="tag">🏗 总结一下</div>
+    <div class="text">潮汐锁定是引力方程的必然解，月球并非孤例。太阳系多数大卫星已同步自转。被锁住的同时，它也反手拉长地球的自转——锁与被锁，是一笔双向账。</div>
+  </div>
+
+  <div class="ref">
+    参考文献：<br>
+    [1] Murray C.D. &amp; Dermott S.F. (1999) <i>Solar System Dynamics</i>. Cambridge University Press.<br>
+    [2] Gladman B. et al. (1996) Synchronous locking of tidally evolving satellites. <i>Icarus</i>, 122(1), 166–192.
+  </div>
+
+</body>
+</html>
