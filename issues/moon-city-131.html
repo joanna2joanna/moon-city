@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>月壤到底有多厚</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; min-height: 1350px;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+.nav-fixed{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:12px}
+.nav-btn{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s;line-height:1;user-select:none}
+.nav-btn:hover{background:rgba(0,0,0,0.7)}
+#back-to-top{display:none}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">挖掘 · 02</div>
+<div class="title">月壤到底有多厚</div>
+
+<div class="block">
+  <div class="head">月海薄高地厚</div>
+  <div class="text">月面几乎没有裸露基岩，松软月壤盖满全球。月海区月壤约四到五米厚，古老高地普遍更厚，最新图量出几米到十米出头。哪一层才算月壤，各家口径还没统一。</div>
+</div>
+
+<div class="block">
+  <div class="head">月震加雷达</div>
+  <div class="text">阿波罗地震实验测出波速，推出月壤厚薄；地基雷达反演近月面，跨度从两米到十七米。两种方法结论一致，月海普遍薄于高地。挖多深，先得算清要穿多厚的土。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">宇航员在月面钻得最深约三米，还没钻穿月海那四五米月壤。嫦娥五号钻下约两米，带回地下的管状样品。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] Rajšić 等 (2026) 月球表面月壤时空演化的新约束. The Planetary Science Journal. doi 10.3847/PSJ/ae7a6f.<br>[2] Fa &amp; Wieczorek (2012) 近月面月壤厚度：地基 70cm 雷达反演. Icarus 218: 771–787. doi 10.1016/j.icarus.2012.01.010.<br>[3] McKay 等 (1991) The Lunar Sourcebook. Cambridge University Press.</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+<div class="nav-fixed">
+<a id="back-to-top" class="nav-btn" href="#" title="回到顶部">&uarr;</a>
+<a class="nav-btn" href="../review.html" title="回到首页">&lceil;</a>
+</div>
+<script>
+(function(){
+var b=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'flex':'none'});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+<!-- 数据核实于 2026-08-12，信源：Rajšić 2026 PSJ 全月月壤厚度图（月海4-5m、高地区6-10m、重撞击区更深）/ Fa & Wieczorek 2012 Icarus 70cm 地基雷达反演近月面2-17m、月海薄于高地 / McKay 1991 Lunar Sourcebook（月海4-5m、高地10-15m）/ 国家航天局、新华社 2020-12 嫦娥五号钻取采样约2米；反向问：高地月壤厚度方法间差异大（传统10-15m，个别新分析称细碎层可达百米级），正文以「哪一层才算月壤，各家口径还没统一」体现争议未定论；阿波罗深钻约3米为阿波罗15/17号深钻记录 -->
+</body>
+</html>
