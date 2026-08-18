@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>月岩风化不靠风</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; min-height: 1350px;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+.nav-fixed{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:12px}
+.nav-btn{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s;line-height:1;user-select:none}
+.nav-btn:hover{background:rgba(0,0,0,0.7)}
+#back-to-top{display:none}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">岩石 · 02</div>
+<div class="title">月岩风化不靠风</div>
+
+<div class="block">
+  <div class="head">风化主力</div>
+  <div class="text">月球没有大气，雨淋风刮全用不上，改岩石表面的是两股力量。高速微陨石撞上来，瞬间熔掉表层，太阳风里的带电粒子不停轰击晶格。两者哪个出力更多，学界至今仍在争论。</div>
+</div>
+
+<div class="block">
+  <div class="head">变暗变红</div>
+  <div class="text">表层析出纳米级铁微粒，是风化留下的痕迹。微粒小，光谱偏红；微粒大，表面变暗。暴露越久，痕迹越深，据此能反推暴露时长。嫦娥五号月壤还发现新机制，产铁路径不止一条。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">阿波罗17号带回的岩块，表面盖着一层暗色包浆，最厚也就五十微米，往里才是本来颜色，不到一张纸的厚度。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] Wentworth S.J. 等 (1999) Space weathering on the Moon: Patina on Apollo 17 samples 75075 and 76015. Meteoritics &amp; Planetary Science 34, 593-603. doi 10.1111/j.1945-5100.1999.tb01366.x.<br>[2] Shen L. 等 (2024) Separate effects of irradiation and impacts on lunar metallic iron formation observed in Chang'e-5 samples. Nature Astronomy 8, 1110-1118. doi 10.1038/s41550-024-02300-0.<br>[3] Xiong Z. 等 (2024) The Formation Mechanisms of np-Fe in Lunar Regolith: A Review. Materials 17(23), 5866. doi 10.3390/ma17235866.</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+<div class="nav-fixed">
+<a id="back-to-top" class="nav-btn" href="#" title="回到顶部">&uarr;</a>
+<a class="nav-btn" href="../review.html" title="回到首页">&lceil;</a>
+</div>
+<script>
+(function(){
+var b=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'flex':'none'});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+<!-- 数据核实于 2026-08-18，信源：Wentworth 等 1999 M&PS 34,593-603 doi 10.1111/j.1945-5100.1999.tb01366.x（阿波罗17号 75075/76015 表层暗色包浆，75075 最厚约50微米、内部新鲜浅色；小纳米铁<5nm 使光谱偏红、大纳米铁约10nm+ 使表面变暗）/ Shen 等 2024 Nat Astron 8,1110-1118 doi 10.1038/s41550-024-02300-0（嫦娥五号玻璃珠：太阳风辐照只产小纳米铁数纳米、微陨石撞击在熔体中产大纳米铁几十纳米）/ Xiong 等 2024 Materials 17(23),5866 doi 10.3390/ma17235866（np-Fe 形成机制综述：暗化红化、嫦娥五号新机制如橄榄石亚固相分解/撞击歧化/FeO 共晶反应、单一定论路径仍无）；反向问：微陨石 vs 太阳风相对贡献仍存争议（Trivedi 2025 / Lu 2024 PNAS Nexus / Jordan 2022 Icarus 结论不一），正文以「学界至今仍在争论」体现未定论；产铁机制以「产铁路径不止一条」体现；避免拟人（不用「躺」「长出」），shuorenhua public-writing/standard/structural 处理车轱辘话后成稿 -->
+</body>
+</html>
