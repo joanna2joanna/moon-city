@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>嫦娥七号晚点奔月</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; min-height: 1350px;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+.nav-fixed{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:12px}
+.nav-btn{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s;line-height:1;user-select:none}
+.nav-btn:hover{background:rgba(0,0,0,0.7)}
+#back-to-top{display:none}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">探冰 · 02</div>
+<div class="title">嫦娥七号晚点奔月</div>
+
+<div class="block">
+  <div class="head">窗口为何这么窄</div>
+  <div class="text">嫦娥七号去月球南极找水冰，落点南纬85度以上。着陆器、巡视车、飞跃器全靠太阳能供电，既要赶在极昼期，又得对上地月位置和鹊桥中继，一年里没几天能用。</div>
+</div>
+
+<div class="block">
+  <div class="head">错过就得等一年</div>
+  <div class="text">月球南极一年里适合作业的优质长日照只有约100天。8月这波窗口一过，年内就没有第二个合适日照，官方才说「不满足发射条件」，下一波主窗口约在2027年8月。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">2026年8月10日，文昌一枚长征七号改刚失利；这次喊停官方没提它，但可能也更谨慎了几分。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] 中国载人航天工程办公室 (2026-08-23) 任务公告<br>[2] 人民日报 (2026-08-24) 报道：任务不满足发射条件<br>[3] 央视新闻 (2026-08-24) 科普：发射窗口到底是什么</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+<div class="nav-fixed">
+<a id="back-to-top" class="nav-btn" href="#" title="回到顶部">&uarr;</a>
+<a class="nav-btn" href="../review.html" title="回到首页">&lceil;</a>
+</div>
+<script>
+(function(){
+var b=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'flex':'none'});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+<!-- 数据核实于 2026-08-25，信源：中国载人航天工程办公室公告 2026-08-23（「任务不满足发射条件，不能在今年预定窗口实施」、经综合研判、稳妥可靠万无一失）/ 人民日报 2026-08-24 / 央视新闻科普 2026-08-24（南极优质长日照窗口约100天/年、理论上最长约180天连续光照、发射窗口需叠加地月相对位置与轨道入射角及鹊桥二号中继弧段、业内测算下一主窗口约2027年8月中旬、2-3月有次优备份但能量代价更高、南纬85度附近极区）/ CGTN 2026-08-25（每年约100天连续阳光）/ SpaceNews 2026-08（台风Narra推后窗口；长七改8-10失利与嫦娥七号推迟无确认因果，SpaceNews原话may have prompted heightened caution，正文用「官方没提它，可能更谨慎」对冲）；长七改8-10失利本身为官方公开信息（新华社通稿「飞行异常、发射任务失利」），火箭高约60米、GTO运力7吨、第18次发射，搭载中星4B通信卫星未入轨 -->
+</body>
+</html>
