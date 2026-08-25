@@ -9,6 +9,7 @@ if (!input || !output) {
   const page = await browser.newPage();
   await page.setViewportSize({ width: 1080, height: 1350 });
   await page.goto(`file://${process.cwd()}/${input}`, { waitUntil: 'networkidle' });
+  await page.evaluate(() => { const el = document.querySelector('.nav-fixed'); if (el) el.remove(); });
   await page.screenshot({ path: output });
   console.log(`${output}: 1080×1350`);
   await browser.close();
