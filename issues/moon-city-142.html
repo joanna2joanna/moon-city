@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>中国登月征途分几步</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; min-height: 1350px;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  /* 顶条：四段撞色 */
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  /* 品牌 */
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  /* 系列标签 */
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+
+  /* 标题 */
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+
+  /* 段落 */
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+
+  /* 小料卡片 */
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+.nav-fixed{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:12px}
+.nav-btn{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s;line-height:1;user-select:none}
+.nav-btn:hover{background:rgba(0,0,0,0.7)}
+#back-to-top{display:none}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">征途 · 01</div>
+<div class="title">中国登月征途分几步</div>
+
+<div class="block">
+  <div class="head">先派嫦娥探路</div>
+  <div class="text">嫦娥七号去南极找水，2026年8月窗口没赶上，推到2027年再奔月。嫦娥八号约2028年前后升空，验证月壤造房、资源就地利用。两步都不载人，先把月面探明白。</div>
+</div>
+
+<div class="block">
+  <div class="head">再换人上月球</div>
+  <div class="text">嫦娥公开排期到八号为止，往后接的是载人登月。2028到2029年先无人彩排全流程，2030年前中国人首登月球，2035年前后建成科研站基本型，2050年再扩成整片站网。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">国际月球科研站已有十几个国家和组织加入，中俄牵头。嫦娥七、八号加鹊桥二号中继星，是首批建材。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] 人民日报 (2026-08-24) 嫦娥七号任务不满足发射条件<br>[2] 新华网 (2024-09) 国际月球科研站基本型预计2035年前后建成<br>[3] 中国驻美使馆 (2026-04) 载人登月进展：How Far We Have Come</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+<div class="nav-fixed">
+<a id="back-to-top" class="nav-btn" href="#" title="回到顶部">&uarr;</a>
+<a class="nav-btn" href="../review.html" title="回到首页">&lceil;</a>
+</div>
+<script>
+(function(){
+var b=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'flex':'none'});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+<!-- 数据核实于 2026-08-26，信源：人民日报 2026-08-24（嫦娥七号任务不满足发射条件，不能在今年预定窗口实施，官方未说明下次窗口，故正文用「约2027年再奔月」不写死月份）/ 新华网 2024-09（国际月球科研站基本型预计2035年前后建成，2050年前建成拓展型，以月面与月轨两部分组成）/ 中国驻美使馆 2026-04（载人登月2030年前目标，长征十号/揽月/梦舟研制进展）/ 中国登月计划时间线（2028-2029无人彩排，着陆月面起飞环月对接全流程）/ 吴伟仁及长江日报（嫦娥八号2029年前后，多数规划图标2028年前后，正文用「约2028年前后」）/ 科研站参与国数字各源不一（Payload Space 13国 / 百度百科 17国50机构 / 另一源约25伙伴），正文用「十几个」规避写死；嫦娥九号十号搜索两轮无官方时间表，故写「公开排期到八号为止」；反面问：嫦娥编号是否止于八号——官方口径确未公布九号十号排期，载人登月不占嫦娥编号，口径一致 -->
+</body>
+</html>
