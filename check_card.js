@@ -12,6 +12,17 @@ const { chromium } = require('playwright');
   await p.goto('file://' + process.cwd() + '/issues/moon-city-' + nn + '.html');
   const out = await p.evaluate(() => {
     const rows = { blocks: [], orphans: [], badStarts: [], badEnds: [] };
+    // 标题宽度：新版式 5px 字距下全角字上限 8，9 全角字超内容区 924px（#143）
+    const titleEl = document.querySelector('.title');
+    const tcs = getComputedStyle(titleEl);
+    const probe = document.createElement('div');
+    probe.style.cssText = 'position:fixed;left:-9999px;top:0;white-space:nowrap;font-family:' + tcs.fontFamily + ';font-weight:' + tcs.fontWeight + ';font-size:' + tcs.fontSize + ';letter-spacing:' + tcs.letterSpacing;
+    probe.textContent = titleEl.textContent;
+    document.body.appendChild(probe);
+    const titleW = probe.getBoundingClientRect().width;
+    probe.remove();
+    const titleBox = titleEl.getBoundingClientRect().width;
+    const titleOver = titleW > titleBox;
     const els = document.body.querySelectorAll('.block .text, .tidbit .txt');
     els.forEach((el, i) => {
       const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
@@ -43,10 +54,11 @@ const { chromium } = require('playwright');
         if (/[「（『【]/.test(ln[ln.length - 1])) rows.badEnds.push({ el: i, row: ri, char: ln[ln.length - 1] });
       });
     });
-    return { blocks: rows.blocks, orphans: rows.orphans, badStarts: rows.badStarts, badEnds: rows.badEnds, sh: document.body.scrollHeight };
+    return { blocks: rows.blocks, orphans: rows.orphans, badStarts: rows.badStarts, badEnds: rows.badEnds, sh: document.body.scrollHeight, titleW: Math.round(titleW), titleBox: Math.round(titleBox), titleOver };
   });
   console.log('每段(渲染行/字数/末行):');
   out.blocks.forEach(x => console.log(`  ${x.type}#${x.el}: ${x.renderLines}行 / ${x.chars}字 / 末行「${x.lastRow}」`));
+  console.log('标题宽度:', out.titleW + 'px / 内容区 ' + out.titleBox + 'px', out.titleOver ? '⚠️ 溢出' : '✅');
   console.log('scrollHeight:', out.sh, out.sh > 1350 ? '⚠️ 超标' : '✅');
   console.log('孤字:', out.orphans.length ? JSON.stringify(out.orphans) : '无');
   console.log('行首右括号:', out.badStarts.length ? JSON.stringify(out.badStarts) : '无');
