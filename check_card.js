@@ -14,15 +14,18 @@ const { chromium } = require('playwright');
     const rows = { blocks: [], orphans: [], badStarts: [], badEnds: [] };
     const els = document.body.querySelectorAll('.block .text, .tidbit .txt');
     els.forEach((el, i) => {
-      const node = el.firstChild;
-      const text = node.textContent;
+      const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      const textNodes = [];
+      while (walker.nextNode()) textNodes.push(walker.currentNode);
       const lineRects = {};
-      for (let k = 0; k < text.length; k++) {
-        const r = document.createRange();
-        r.setStart(node, k); r.setEnd(node, k + 1);
-        const top = Math.round(r.getBoundingClientRect().top);
-        if (!lineRects[top]) lineRects[top] = '';
-        lineRects[top] += text[k];
+      for (const node of textNodes) {
+        for (let k = 0; k < node.textContent.length; k++) {
+          const r = document.createRange();
+          r.setStart(node, k); r.setEnd(node, k + 1);
+          const top = Math.round(r.getBoundingClientRect().top);
+          if (!lineRects[top]) lineRects[top] = '';
+          lineRects[top] += node.textContent[k];
+        }
       }
       const lines = Object.values(lineRects);
       const h = el.getBoundingClientRect().height;
@@ -31,7 +34,7 @@ const { chromium } = require('playwright');
         el: i,
         type: el.closest('.block') ? 'block' : 'tidbit',
         renderLines: Math.round(h / lh),
-        chars: text.length,
+        chars: el.textContent.length,
         lastRow: lines[lines.length - 1]
       });
       if ([...lines[lines.length - 1]].length <= 1) rows.orphans.push({ el: i, lastRow: lines[lines.length - 1] });
