@@ -1,18 +1,21 @@
 # 张走走想在月球盖座城
 
-微信贴图号。每期一个月球建城概念，1080×1350px。
+微信贴图号科普系列「张走走想在月球盖座城」——波普撞色小卡片。每期一个月球工程概念，1080×1350px。
 
 ## 关键参数
 
-- 画布：1080×1350px，固定高度
-- 配色：深空蓝底 `#162440`／金 `#E8C565`／星光银蓝 `#8CB8D8`
-- 字号：标题 100px / 段落标题 28px / 正文 25px / 参考文献 20px
+- 画布：1080×1350px，overflow: hidden
+- 模板：`template-v2.html`，CSS 不动
+- 配色：深蓝黑底 `#0B121C`／黄 `#FFE53B`／粉 `#FF5E8A`／青 `#00E5FF`／白 `#FFFFFF`／灰 `#8899AA`
+- 标题：100px 黄字 + 双层粉投影，≤9 字（数字按视觉宽度），含「月」
 
 ## 内容规则
 
-- 标题 ≤9 字，带「月球」前缀，口语化优先
-- 正文 460–510 字，3 个 block + 1 个 highlight + 1 个 insight + 参考文献
-- 无句首标点、无孤字行
+- 8 板块：顶部四段撞色条 → 品牌条 → 系列标签 → 标题 → 知识块 ×2 → 粉框趣闻 → 参考文献 → 免责声明
+- 知识块各恰好 3 行（65–86 字），趣闻恰好 2 行（45–53 字）
+- 标题口语化、含「月」；正文第三人称，不出现「我」「我们」
+- 参考文献 2–3 条，真实可查；免责声明独立一行
+- 无句首标点、无孤字行、零 emoji
 - 同一事物表述全程统一，不混用近义词
 
 ## 选题
@@ -170,6 +173,14 @@
 
 ```
 issues/
-├── moon-city-NN.html/.png    #01-08 旧格式（Pillow），#09+ 新格式（HTML + Playwright）
+├── moon-city-01.html/.png    #01-08 旧格式（render.py + Pillow）
+├── moon-city-09.html/.png    #09-69 新格式（HTML + Playwright）
+├── moon-city-70.html/.png    #70+ 新版式（template-v2，波普撞色）
+template-v2.html              当前版式模板
+review.html                   分类索引（站点首页，新期经 add_review.py 写入）
+index.html                    跳转到 review.html
+check_card.js                 全检脚本（行数/字数/高度/孤字/括号）
+count_chars_v2.py             字数检查
+add_review.py                 新期写入 review.html
 screenshot.js                 截图脚本
 ```
