@@ -1,18 +1,62 @@
-画幅 1080×1350，竖版 4:5。画面铺满，不额外加框或分割线。
+Exact canvas 1080×1350 pixels, width:height=4:5=0.8, short broad portrait. Generate an independent new Chinese lunar engineering pop-art poster from blank canvas, no reference images.
 
-顶部：画幅最上缘贴一道极细的横贯全宽色带，黄、粉、青、黄四截等分依次排开。色带正下方居中一枚黄底黑字小横条，写着「张走走想在月球盖座城」，字极小克制，横条外勾一圈细白线框，右下角压一道淡粉色偏移影。
+BRAND INVARIANTS
 
-系列标签与主标题：横条下居中一行青色小字「月食 · 01」，纯文字无符号。再往下是八个巨大粗体工业黄汉字「月面仰望地球遮日」，黑色粗描边，字距微微拉开，每字右下叠两层亮洋红投影，一层清晰一层虚化，是整幅画第一抢眼处。
+Full bleed, no frame, no divider lines. Top 22% identity/title, middle 56% hero scene, bottom 22% notes integrated over quiet dark foreground.
 
-视觉层（标题下方核心区，镜头放在月面上仰视天空，打破对称。整体走亮调波普海报质感：大色块、硬边缘、粗黑线加波普网点，气氛要鲜亮有戏剧张力，不要写实夜景的死黑与糊灰）：
-第一层·前景月面：画幅底部一片宽阔的月球荒原斜切进来，岩层与坑壁的轮廓用粗黑描边利落切出，主色是饱满的钴蓝，阴影用规整的波普粗网点铺出层次，不用灰黑渐变。一道明亮的洋红反光带顺着朝向天空的岩石上缘划过，像被光环点亮；落在地面的洋红余光把前景从暗调里捞起来。
-第二层·月平线远景：前景上方压一道锯齿感清晰的环形山脊剪影，钴蓝衬着夜空，轮廓上沿被洋红反光勾出一道干净的亮线，层次分明不糊成一片。
-第三层·主景·地球遮日：画幅中上偏右悬着一轮巨大的暗地球，盘面几乎全黑但边缘干净利落，轮廓之外刻一圈白色细亮描边，让黑盘不闷进夜空。太阳藏在它背后，沿地球圆盘勒出一圈炽亮的洋红光环，光晕厚实地向夜空渗出一片霓虹辉光，整幅暗色天空靠它提亮。地球刻意偏右，左侧留大片高饱和钴蓝夜空，疏密网点做出渐变，缀几粒干净的白色波普星点，画面像刚印出来的漫画海报。红环的由来留给画面外的文字解释。
+Ultra-thin topmost full-width strip four equal segments yellow/pink/cyan/yellow, boundaries at exactly 25%,50%,75%.
 
-底部左栏（工程概览，细密小字，≤150 字）：月全食那一小段，站在月球正面抬头看：地球把太阳整个盖住，天上正演日全食，地球外圈那圈红环，是全球日出日落的光折来的。同一时刻从地球看，整轮月亮落进地球影子，本应全黑，亏得大气折光，红橙光透进来，把月盘染成暗铜红。
+Small restrained centered yellow banner with exact black text "张走走想在月球盖座城", thin white outline, subtle pale-pink lower-right offset shadow. Beneath, small cyan "月食 · 01".
 
-底部右栏（数据来源，细密小字，带「参考文献：」标签）：参考文献：NASA Space Place 月食与红月成因；LPI/USRA 2022 从月球看月全食；timeanddate 月食成色随大气变化。
+Then a SINGLE LINE of EIGHT HUGE industrial yellow Chinese characters "月面仰望地球遮日", heavy black outlines, two vivid-magenta lower-right shadows, sharp and diffuse. Fit all eight characters without clipping, strongest graphic element. No subtitle.
 
-底部居中：青色微小字「*本文为公开信息整理笔记，非严肃学术科普。*」
+Cobalt blue, black, industrial yellow headline, vivid magenta light, cyan small labels, white body text. Absolutely no orange, red, brown, beige, gold. Depict physically red light with vivid magenta. Thick black structural contours and coarse screenprinted pop-art halftone shadows, editorial graphic illustration, not glossy 3D.
 
-色彩分配：主色域钴蓝（月面与夜空，要高饱和、亮调）、工业黄（标题）、亮洋红（地球光环、辉光与前景反光）；结构线一律粗黑描边，阴影与过渡一律用波普粗网点铺层次，禁灰黑渐变；红、橙、棕等暖色一律不出现，需表现的红光统一用亮洋红。整体气质是印出来的波普漫画海报，鲜亮、利落、有光感，不是写实暗景。
+VARIABLE ART DIRECTION
+
+New approved viewpoint: standing ON the Moon's nearside looking upward at Earth completely blocking the Sun. One continuous immersive lunar surface scene.
+
+Hierarchy: title -> enormous dark Earth encircled by refracted magenta light -> dim magenta-lit lunar crater rim establishing the observer's viewpoint -> explanatory copy.
+
+Hero in saturated COBALT sky: giant complete circular Earth silhouette in the upper-right of the scene, diameter approximately 51% of canvas width, with full circumference visible under title and above lunar horizon.
+
+Earth's night hemisphere is a bold graphic print: readable saturated COBALT continents against near-black ocean, strong black outlines, coarse halftone. This is artistic tonal separation, not sunlit terrain. No white daylit clouds, no sunlit crescent.
+
+Behind Earth the Sun is COMPLETELY HIDDEN. The entire Earth outline has one vivid-magenta atmospheric ring with rhythmically varying line weight and brightness, a few localized coarse halftone glow patches. Interior dark but readable cobalt continental shapes. This is refracted sunset/sunrise atmospheric glow hugging Earth's limb, not the visible yellow disk of the Sun and not a broad solar ring.
+
+No visible separate Sun, no solar flare, no white corona, no schematic beams, no arrows, no external view of a Moon disk.
+
+Foreground: low lunar viewpoint across barren rugged BRIGHT SATURATED COBALT crater terrain, an oblique crater wall descending from lower left toward middle right, giving asymmetric diagonal depth. Craggy silhouette, a few large angular basalt rocks integrated into the crater lip with clear ground contact.
+
+Earth-facing rock facets carry bold vivid-magenta planes of reflected light. Rocks are modeled with LARGE COBALT PLANES, thick BLACK CUT SHADOWS and coarse clearly visible halftone; tactile silkscreen/woodcut poster art. Show three discernible terrain depth layers, not murky fine photographic texture.
+
+Do not let horizon or rocks occlude Earth. No astronauts, no buildings, no flags, no labels in scene. Restrained stars if needed, no decorative clutter.
+
+Leave quiet low-detail dark terrain under bottom copy, protect legibility. Strong graphic contrast and one atmospheric ring should communicate Earth eclipsing the Sun as seen from the Moon. Keep the scene vivid and legible at thumbnail size.
+
+EXACT TEXT
+
+Bottom two columns, white fine Chinese type, left 55% width right 40%, no dividing rule.
+
+Left verbatim:
+"月全食时月亮整轮落进地球的影子，直射光被挡，本该全黑。地球大气会把阳光折弯，蓝光被散射大半，红橙光折进影里，整轮月盘染成暗铜红。同一时刻站在月球正面，看见的是地球把太阳整个盖住、天上正演日全食，外圈红环是全球日出日落的光折来的。"
+
+Right verbatim:
+"参考文献：NASA Space Place 月食与红月成因；LPI/USRA 2022 从月球看月全食；timeanddate 月食成色随大气变化。"
+
+Bottom centered tiny cyan verbatim:
+"*本文为公开信息整理笔记，非严肃学术科普。*"
+
+No other text. Exact Chinese glyphs, no typos, no cropped characters. Balanced line wraps, avoid one-character final lines, no closing punctuation at line start or opening punctuation at line end. Shrink body type rather than elongating canvas.
+
+Exact final 1080×1350 pixels, 4:5=0.8 compact portrait, never 2:3.
+
+APPROVED ART REVISION, ALL BRAND CHARTER ITEMS LOCKED:
+
+Much brighter graphic POP-ART PRINT with expressive flat cobalt shapes, sculptural black ink shadows, bold magenta reflected facets, dynamic diagonal crater rim in lower-left balancing upper-right Earth.
+
+The prior attempt was too dark and too photographic. Do not imitate dim astronomical photography or render a uniform neon circle floating over black noise. Large clean screenprinted shapes, expressive cut edges, selective coarse halftone instead of uniform grain.
+
+Preserve EXACT title, issue, series banner, two text columns, references, cyan footer, ultra-thin equal top strip, yellow black-outlined title double magenta shadow. Do not add new wording. Do not add the Sun's visible disk.
+
+Canvas 1080×1350, width:height=4:5=0.8.
