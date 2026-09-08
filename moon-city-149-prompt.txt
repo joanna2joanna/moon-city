@@ -1,0 +1,48 @@
+Exact canvas 1080×1350 pixels, width:height=4:5=0.8, short broad portrait. Generate an independent new Chinese lunar engineering pop-art poster from blank canvas, no reference images.
+
+BRAND INVARIANTS
+
+Full bleed, no frame, no divider lines. Top 22% identity/title, middle 56% hero scene, bottom 22% notes integrated over a quiet dark foreground.
+
+Ultra-thin topmost full-width strip four equal segments yellow/pink/cyan/yellow, boundaries at exactly 25%,50%,75%.
+
+Small restrained centered yellow banner with exact black text "张走走想在月球盖座城", thin white outline, subtle pale-pink lower-right offset shadow. Beneath, small cyan "观星 · 01".
+
+Then a SINGLE LINE of SEVEN HUGE industrial yellow Chinese characters "月面白昼看星星", heavy black outlines, two vivid-magenta lower-right shadows, sharp and diffuse. Fit all seven characters without clipping, strongest graphic element. No subtitle.
+
+Cobalt blue, black, industrial yellow, vivid magenta accents, cyan small labels, white body text. Absolutely no orange, red, brown, beige, gold. Thick black structural contours and coarse screenprinted pop-art halftone shadows, editorial graphic illustration, high-key and bright, not glossy 3D, not dim astrophotography.
+
+VARIABLE ART DIRECTION
+
+New approved viewpoint: high-key lunar NOON on the surface, black day sky. A lone astronaut stands on a bright regolith ridge at mid-ground looking up, and the story is that the sky stays black and starry even while the sun blazes; only the daylight glare hides the faint stars from the eye. One continuous immersive surface scene.
+
+Hierarchy: title -> huge pure-black starfield daytime sky -> blazing sun clipped at the far-left canvas edge -> small astronaut silhouette on a bright cobalt ridge -> glaring bright foreground -> explanatory copy.
+
+Sky fills the upper roughly 60% of the scene as a PURE BLACK field (not blue, not a navy band): flat black with only the barest deep-cobalt undertone near the razor-sharp horizon line, crisp and empty, no scattering glow, no haze, no aurora.
+
+Across the black sky hangs a dense field of crisp steady white stars of varied sizes, each a sharp pin-point with a tiny black or yellow print accent, plus a few larger four-point print stars with coarse halftone. They look FIXED and steady, no twinkle, no motion. Stars are bold on the right and upper areas; toward the sun and down near the bright horizon they thin out and dissolve into faint coarse halftone dots, as if washed out by glare.
+
+The SUN is a blinding near-white-yellow disk seated high at the FAR LEFT edge and clipped by the canvas so only part of the disc shows. Hard crisp edge, flat industrial yellow with a hot near-white core, bold black cut contour, a few short restrained black glint ticks at the limb. It casts NO halo and NO glow gradient into the sky; the absence of skyglow is the point of having no atmosphere.
+
+Mid-ground: a low cobalt sunlit ridge line sweeps up from the lower-right corner across to the middle-left, giving a mirrored diagonal. Ridge slopes and regolith faces are built from LARGE FLAT COBALT PLANES in bright daylight key with thick black ink shadow slashes and selective coarse halftone in shade, tactile silkscreen/woodcut poster art. The brightest regolith facets verge toward pale cobalt-white to sell how dazzling the sunlit ground is.
+
+Standing on the ridge crest at mid-distance: a SINGLE SMALL astronaut silhouette in a plain pressure suit, black ink figure with a cobalt sheen, one arm raised shading the faceplate, posed looking up across the bright scene toward the black starry sky. Small scale for pop contrast. No flags, no buildings, no vehicles, no Earth disc, no Moon-disk-in-sky, no rings, no labels in scene.
+
+Three discernible depth layers, clean graphic separation, vivid and legible at thumbnail size. The lit foreground strip under the bottom copy stays quiet and low-detail to protect text legibility.
+
+EXACT TEXT
+
+Bottom two columns, white fine Chinese type, left 55% width right 40%, no dividing rule.
+
+Left verbatim:
+"地球白天看不见星，是空气把阳光散开、整片天被照亮；月面没有空气，光不拐弯，只照亮太阳正对的方向，其余天空始终漆黑，星星白昼照样在。可真站上月面白昼，太阳把月壤晒得晃眼，瞳孔收细、面罩压暗，多数乘员裸眼没见到星，阿波罗17号的塞尔南算例外，白天倒瞧见了几颗。"
+
+Right verbatim:
+"参考文献：NASA Space Math 照片里的星星去哪了；IFLScience 从月面能看见星星吗；Astronomy.com 月面拍地球为何天空漆黑无星。"
+
+Bottom centered tiny cyan verbatim:
+"*本文为公开信息整理笔记，非严肃学术科普。*"
+
+No other text. Exact Chinese glyphs, no typos, no cropped characters. Balanced line wraps, avoid one-character final lines, no closing punctuation at line start or opening punctuation at line end. Shrink body type rather than elongating canvas.
+
+Exact final 1080×1350 pixels, 4:5=0.8 compact portrait, never 2:3.
