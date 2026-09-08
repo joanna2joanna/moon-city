@@ -14,21 +14,21 @@ Cobalt blue, black, industrial yellow, vivid magenta accents, cyan small labels,
 
 VARIABLE ART DIRECTION
 
-New approved viewpoint: high-key lunar NOON on the surface, black day sky. A lone astronaut stands on a bright regolith ridge at mid-ground looking up, and the story is that the sky stays black and starry even while the sun blazes; only the daylight glare hides the faint stars from the eye. One continuous immersive surface scene.
+New approved viewpoint: wide ground-level vista of a blazing lunar EARLY MORNING told as a stark LIGHT/SHADOW SPLIT. On the sunlit side the glare hides every star; step into the lander's long cold shadow and the black daytime sky fills with crisp stars. One continuous scene built around a strong focal subject — a big angular lander casting a giant diagonal shadow — not an empty sky.
 
-Hierarchy: title -> huge pure-black starfield daytime sky -> blazing sun clipped at the far-left canvas edge -> small astronaut silhouette on a bright cobalt ridge -> glaring bright foreground -> explanatory copy.
+Hierarchy: title -> blinding low sun far right -> angular lander mid-ground whose long shadow splits the frame -> dense star cluster revealed inside the shadow half -> astronaut at the shadow's edge -> explanatory copy.
 
-Sky fills the upper roughly 60% of the scene as a PURE BLACK field (not blue, not a navy band): flat black with only the barest deep-cobalt undertone near the razor-sharp horizon line, crisp and empty, no scattering glow, no haze, no aurora.
+THE GLARE HALF, right roughly 55%: regolith blasted by low morning sun, rendered as big flat planes verging on near-white pale cobalt and hot pale yellow, blindingly bright, with thick black ink shadow slashes under scattered dark rocks. Above this lit ground the sky is near-black and almost starless; a few stars dissolve into faint coarse halftone speckle, washed out by glare. This half reads as too bright to look at, nothing visible in the glare.
 
-Across the black sky hangs a dense field of crisp steady white stars of varied sizes, each a sharp pin-point with a tiny black or yellow print accent, plus a few larger four-point print stars with coarse halftone. They look FIXED and steady, no twinkle, no motion. Stars are bold on the right and upper areas; toward the sun and down near the bright horizon they thin out and dissolve into faint coarse halftone dots, as if washed out by glare.
+THE SUN: a small hard-edged blinding white-yellow disc sitting very low on the far right, half sunk behind the horizon, flat color with a hot near-white core, bold black cut contour, a few short restrained black glint ticks at its limb, NO halo, NO glow gradient into the sky — the absence of skyglow is the point of having no atmosphere.
 
-The SUN is a blinding near-white-yellow disk seated high at the FAR LEFT edge and clipped by the canvas so only part of the disc shows. Hard crisp edge, flat industrial yellow with a hot near-white core, bold black cut contour, a few short restrained black glint ticks at the limb. It casts NO halo and NO glow gradient into the sky; the absence of skyglow is the point of having no atmosphere.
+THE LANDER: mid-ground near the vertical center, an angular retro lander / small habitat module stack — blocky, flat industrial yellow panels, deep cobalt shaded faces, one vivid-magenta accent stripe, thick black outlines, four spindly dark legs gripping the regolith. Its silhouette is a stark hard-edged graphic shape standing right where the light begins.
 
-Mid-ground: a low cobalt sunlit ridge line sweeps up from the lower-right corner across to the middle-left, giving a mirrored diagonal. Ridge slopes and regolith faces are built from LARGE FLAT COBALT PLANES in bright daylight key with thick black ink shadow slashes and selective coarse halftone in shade, tactile silkscreen/woodcut poster art. The brightest regolith facets verge toward pale cobalt-white to sell how dazzling the sunlit ground is.
+THE SHADOW, left roughly 45%: the lander throws one LONG tapering shadow diagonally to the LEFT, a clean near-black deep-indigo band across the lower-left ground with a razor-straight far edge and coarse halftone inside. Ground inside the shadow goes deep cobalt-black with a couple of dark angular rocks. ABOVE this shadow zone the sky is PURE BLACK and dense with crisp steady white stars of varied sizes — sharp pin-points with tiny black or yellow print accents, a few larger four-point print stars with coarse halftone, FIXED and steady, no twinkle, no motion. The star cluster visually belongs to the shadow, as if the shadow opens the daytime sky.
 
-Standing on the ridge crest at mid-distance: a SINGLE SMALL astronaut silhouette in a plain pressure suit, black ink figure with a cobalt sheen, one arm raised shading the faceplate, posed looking up across the bright scene toward the black starry sky. Small scale for pop contrast. No flags, no buildings, no vehicles, no Earth disc, no Moon-disk-in-sky, no rings, no labels in scene.
+THE ASTRONAUT: small, standing in the shade at the shadow's edge beside the lander, back turned to the blinding sunlit half, head tilted up toward the star cluster, gold-tinted visor catching a small magenta glint. Black ink silhouette with one cobalt sheen facet, arm slightly raised. Scale small for pop contrast. No flags, no vehicles, no Earth, no Moon-disk-in-sky, no rings, no labels in scene.
 
-Three discernible depth layers, clean graphic separation, vivid and legible at thumbnail size. The lit foreground strip under the bottom copy stays quiet and low-detail to protect text legibility.
+Three discernible depth layers — near shadow rocks, mid lander-and-astronaut, far horizon glare line — clean graphic separation, vivid and legible at thumbnail size. The lit foreground strip under the bottom copy stays quiet and low-detail to protect text legibility.
 
 EXACT TEXT
 
