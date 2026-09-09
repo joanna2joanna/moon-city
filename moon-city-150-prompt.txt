@@ -29,7 +29,7 @@ EXACT TEXT
 Bottom two columns, white fine Chinese type, left 55% width right 40%, no dividing rule.
 
 Left verbatim:
-"月亮已有约四十五亿岁，还能撑多久，看太阳。约五十亿年后太阳核心的氢烧尽，外层胀成红巨星，伸到如今地球轨道一带。月亮绕着地球转，跑不远，太阳这一胀就是它的大限。旧模型判地球月亮都被太阳吞没；2026年新模型认为太阳边胀边抛质量，地球火星能外飘，水星金星逃不掉。月亮被吞、被撕碎，还是随地球飘走，看太阳抛掉多少质量。"
+"月亮已有约四十五亿岁，还能留多久，由太阳定。约五十亿年后核心的氢烧尽，外层胀成红巨星，边界伸到如今地球轨道一带，月球轨道也在这片范围里。旧模型判地球和月亮都会被太阳吞没；2026年新模型认为，太阳膨胀时向外流失质量，地球火星能外飘，水星金星仍会被吞没。月亮是否跟着外飘，要看太阳流失多少质量。"
 
 Right verbatim:
 "参考文献：Esseldeurs M. et al. (2026) The fate of Earth during the Sun's giant phases, Astronomy & Astrophysics 710；KU Leuven News (2026) 太阳胀成红巨星地球能否幸存；The Weather Channel 总日全食约六亿年后绝迹。"
