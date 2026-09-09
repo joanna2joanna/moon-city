@@ -1,0 +1,42 @@
+Exact canvas 1080×1350 pixels, width:height=4:5=0.8, short broad portrait. Generate an independent new Chinese lunar engineering pop-art poster from blank canvas, no reference images.
+
+BRAND INVARIANTS
+
+Full bleed, no frame, no divider lines. Top 22% identity/title, middle 56% hero scene, bottom 22% notes integrated over quiet deep-cobalt space.
+
+Ultra-thin topmost full-width strip four equal segments yellow/pink/cyan/yellow, boundaries at exactly 25%,50%,75%.
+
+Small restrained centered yellow banner with exact black text "张走走想在月球盖座城", thin white outline, subtle pale-pink lower-right offset shadow. Beneath, small cyan "寿命 · 01".
+
+Then a SINGLE LINE of SEVEN HUGE industrial yellow Chinese characters "月亮还能活多久", heavy black outlines, two vivid-magenta lower-right shadows, sharp and diffuse. Fit all seven characters without clipping, strongest graphic element. No subtitle.
+
+Cobalt blue, black, industrial yellow, vivid magenta accents, cyan small labels, white body text. Absolutely no orange, red, brown, beige, gold — the star is rendered in palette (magenta/yellow/white), not photographic orange-red. Thick black structural contours and coarse screenprinted pop-art halftone shadows, editorial graphic illustration, high-key and bright, not glossy 3D, not dim astrophotography.
+
+VARIABLE ART DIRECTION
+
+New approved viewpoint: a cold outer-space system view of deep time — the Moon's lifespan staged as one colossal swollen star versus a tiny fleeing pair. No lunar-surface foreground, no astronaut figure, no measuring ruler, no magnifier, no micro-texture close-up. Composition is strongly diagonal: the giant star dominates the upper-left two-thirds and pushes down; the small Earth-and-Moon pair sits low-right on a thin orbit line that visibly FORKS into two futures.
+
+THE GIANT STAR, upper-left roughly 70% of the canvas: an enormous swollen red-giant disc with a razor-straight-looking hard black contour slicing diagonally across the top-left, its visible surface covered in big coarse screenprinted halftone convection cells and slow swells. The core reads hot: center industrial-yellow-white hot, grading to vivid-magenta plasma filaments and deeper magenta-maroon halftone toward the limb; a few thin pale-yellow stream-lines peel off the upper limb and drift up-right, showing the star throwing off mass. Keep it stylized pop flatness with thick black contours, no photographic gradient glow, no warm orange tones.
+
+THE ESCAPE FORK, lower-right roughly 30% of the canvas: in empty deep-cobalt space, a small cobalt-blue Earth as a clean hard-edged globe, white cloud swirls and a thin cyan-white rim light on its sunlit side; right beside it a TINY pale warm-white dot is the Moon, small enough to be almost lost next to the globe, so the star dwarfs both. A thin pale cobalt orbit line trails from the pair and FORKS: one faint branch arcs back toward the giant star and fades out (the swallowed fate), the other branch becomes a clean dashed bright industrial-yellow arc climbing to the upper-right corner (the escape fate). The fork reads as the poster's quiet question mark, drawn flat and legible, not cluttered.
+
+SPACE between and around: deep cobalt-black void, a sparse scatter of coarse-halftone four-point print stars (fixed, steady), and two or three very thin pale streamers crossing from the giant toward the pair. Lower half stays mostly open dark cobalt space so the bottom copy stays legible.
+
+Three discernible depth layers — near: the giant's limb convection upper-left; mid: the tiny Earth-Moon pair and forking orbit lower-right; far: the cobalt void and sparse stars. Clean graphic separation, vivid and legible at thumbnail size. No flags, no vehicles, no humans, no Earth-eclipse shapes, no rings, no labels in scene.
+
+EXACT TEXT
+
+Bottom two columns, white fine Chinese type, left 55% width right 40%, no dividing rule.
+
+Left verbatim:
+"月亮已有约四十五亿岁，还能撑多久，看太阳。约五十亿年后太阳核心的氢烧尽，外层胀成红巨星，伸到如今地球轨道一带。月亮绕着地球转，跑不远，太阳这一胀就是它的大限。旧模型判地球月亮都被太阳吞没；2026年新模型认为太阳边胀边抛质量，地球火星能外飘，水星金星逃不掉。月亮被吞、被撕碎，还是随地球飘走，看太阳抛掉多少质量。"
+
+Right verbatim:
+"参考文献：Esseldeurs M. et al. (2026) The fate of Earth during the Sun's giant phases, Astronomy & Astrophysics 710；KU Leuven News (2026) 太阳胀成红巨星地球能否幸存；The Weather Channel 总日全食约六亿年后绝迹。"
+
+Bottom centered tiny cyan verbatim:
+"*本文为公开信息整理笔记，非严肃学术科普。*"
+
+No other text. Exact Chinese glyphs, no typos, no cropped characters. Balanced line wraps, avoid one-character final lines, no closing punctuation at line start or opening punctuation at line end. Shrink body type rather than elongating canvas.
+
+Exact final 1080×1350 pixels, 4:5=0.8 compact portrait, never 2:3.
