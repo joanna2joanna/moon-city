@@ -1,0 +1,4 @@
+interface:
+  display_name: "月球盖座城"
+  short_description: "延续月球知识卡片，核实资料、制作文本卡、编写提示词与生成配图"
+  default_prompt: "用 $moon-city 读取项目记忆，为下一期提出一个不重复的选题，确认后一气呵成完成本地制卡、截图和 AI 配图。"

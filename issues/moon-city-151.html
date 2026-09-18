@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>如何从月球返航</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; min-height: 1350px;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  /* 顶条：四段撞色 */
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  /* 品牌 */
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  /* 系列标签 */
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+
+  /* 标题 */
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+
+  /* 段落 */
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+
+  /* 小料卡片 */
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+.nav-fixed{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:12px}
+.nav-btn{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s;line-height:1;user-select:none}
+.nav-btn:hover{background:rgba(0,0,0,0.7)}
+#back-to-top{display:none}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">返航 · 02</div>
+<div class="title">如何从月球返航</div>
+
+<div class="block">
+  <div class="head">月轨会合后出发</div>
+  <div class="text">以嫦娥五号为例，上升器从月面起飞，在月球轨道与轨道器、返回器组合体对接，把月壤样品转入返回器。轨道器再点火，带着返回器<strong>离开月球轨道</strong>，飞向地球。</div>
+</div>
+
+<div class="block">
+  <div class="head">两次再入后着陆</div>
+  <div class="text">接近地球后，返回器与轨道器分离，独自进入大气。返回器先借空气阻力减速，再借升力抬升，随后二次进入大气，这种方式称为<strong>跳跃式再入</strong>。减速后打开降落伞着陆。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">采用这套方案的嫦娥五号和六号，均在四子王旗着陆。<br>两次再入可分散减速载荷，并帮助返回器控制落点。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] 国家航天局（2020）：嫦娥五号采样返回任务完成通报。<br>[2] 国家航天局（2024）：嫦娥六号总设计师胡浩专访。<br>[3] NASA（2021）：猎户座跳跃式再入技术说明。</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+<div class="nav-fixed">
+<a id="back-to-top" class="nav-btn" href="#" title="回到顶部">&uarr;</a>
+<a class="nav-btn" href="../review.html" title="回到首页">&lceil;</a>
+</div>
+<script>
+(function(){
+var b=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'flex':'none'});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+<!--
+数据核实于 2026-09-11。标题由用户确定为“如何从月球返航”。主题：返航 · 02；接续 #144 的返航难点，改讲嫦娥五号的实际返航流程，不重复逃逸速度、再入速度和高温数字。不把此方案泛化为所有月球返航任务。
+关键主张与来源：
+0. 上升器月面起飞、月轨交会对接、月壤转移入返回器，轨道器与返回器组合体月地转移；近地分离、跳跃再入、降落伞着陆。
+国家航天局任务完成通报（2020-12-17）：https://www.cnsa.gov.cn/n6758823/n6758838/c6810872/content.html
+国家航天局月地转移通报（2020-12-13）：https://www.cnsa.gov.cn/n6758823/n6758838/c6810828/content.html
+ESA 测控参与方对上升器、轨道器与样品返回架构的独立说明（2020）：https://www.esa.int/Enabling_Support/Operations/ESA_ground_stations_support_Moon_missions
+1. 空气阻力减速、气动升力使轨迹抬升、随后二次再入；可控制跳跃高度及航程，减小峰值过载，将加热分散到两段。
+NASA 技术说明（2021-04-08）：https://www.nasa.gov/missions/orion-spacecraft-to-test-new-entry-technique-on-artemis-i-mission/
+2. 嫦娥六号已采用半弹道跳跃式再入；“水漂”是轨迹比喻，不是撞上弹性界面。任务总设计师访谈与 NASA 的机理说明交叉一致。
+国家航天局刊载胡浩专访（2024）：https://www.cnsa.gov.cn/n6758823/n6758838/c10613531/content.html
+3. 嫦娥五号、六号分别在 2020-12-17、2024-06-25 着陆四子王旗；本文不增加任务排期数字。
+新华社原报道，国家航天局刊载（2024-06-26）：https://www.cnsa.gov.cn/n6758823/n6758844/n10518102/n10518157/c10569780/content.html
+五号方案机理复核（2020-11-24）：https://www.cnsa.gov.cn/n6758823/n6758844/n6760243/n6760248/c6810588/content.html
+反向验证：NASA 对 Artemis I 防热罩脱落的调查（2024-12-05）显示，两次再入之间仍可能积热，防热材料排气及轨迹需要联合设计。
+https://www.nasa.gov/missions/artemis/nasa-identifies-cause-of-artemis-i-orion-heat-shield-char-loss/
+因此不写“跳起就冷透”“总热量一定更小”“可以取消防热罩”，也不把峰值过载降低泛化为所有风险都降低。
+弃用：某访谈的“只有中国在用”不作为普遍事实；NASA Artemis I 已实施 skip entry，术语及设计口径不宜混同。NASA 2021 文章中 Artemis II 将采用该方案的未来计划不作为当前事实。
+视觉边界：以月轨样品转移、地月返程为背景，再入返回器为主视觉；主视觉只画一次受控抬升和两次大气穿入；气层为渐薄示意，无弹性硬壳、反弹碰撞或多次跳跃；返回器为无动力再入，防热底面迎风，不加主发动机火焰。局部轨迹示意不按比例，不把上升器画成返回地球的同一器件。
+-->
+</body>
+</html>

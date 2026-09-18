@@ -1,0 +1,34 @@
+Use case: scientific-educational editorial illustration.
+Create one finished Chinese lunar engineering pop-art poster. Exact canvas 1080×1350, 4:5 portrait. Full bleed, no outer frame or ornamental divider rules. Generate a new composition from scratch.
+
+TOP IDENTITY
+An ultra-thin full-width strip at the very top, four equal segments: yellow, pink, cyan, yellow. Under it, a small centered industrial-yellow banner with exact black text “张走走想在月球盖座城”, thin white outline and subtle pink offset shadow. Below, the cyan series label “返航 · 02”. Then the single-line main title “如何从月球返航”: exactly SEVEN huge Chinese characters, industrial yellow, bold black contours, double vivid-magenta shadows offset down-right. All seven characters fully visible, the title is the strongest typographic element. No subtitle. Top identity and title occupy roughly the upper fifth.
+
+HERO SCENE
+A bright, forceful spaceflight illustration centered on the return to Earth, with one dominant reentry capsule and an immense curved Earth sweeping diagonally through the scene. The main picture occupies the middle of the poster. Asymmetrical, strong depth, large clear shapes, readable as a thumbnail. The narrative follows the Chang’e-5 sample-return architecture; spacecraft forms are simplified editorial illustrations, not engineering blueprints.
+
+Near layer: one LARGE squat bell-shaped sample return capsule near the right-middle of the scene, shown during its final atmospheric descent. Its broad rounded DARK heat-shield bottom is the leading face, oriented down-right in the direction of travel; its narrower industrial-yellow upper body and small cyan side detail trail up-left. Give the craft a compact heavy silhouette, thick structural black contours, cobalt shadow planes and coarse print halftone. A bright WHITE / MAGENTA bow-shaped plasma sheath wraps immediately ahead of the broad heat shield, with a restrained magenta wake streaming behind. This is reentry plasma, NOT an engine jet. No wings, landing legs, solar panels, parachutes or rocket motor flame on this high-speed capsule. Do not depict an astronaut or a crew inside it.
+
+Middle layer: the Earth is a massive partial globe below and to the right, cropped by the side of the canvas, not a small complete ball. Large cobalt ocean planes and crisp white cloud bands follow its curvature. An airy cyan atmospheric band follows the curved limb; its outer edge fades through halftone rather than becoming a solid shell. Keep the atmosphere translucent and thin relative to the Earth. The bright Earth surface gives the scene luminosity; rich dark blue space gives contrast, not an overall dim night-scene look.
+
+Show ONE continuous thin MAGENTA trajectory with a few small directional arrowheads, moving from left toward right. It first curves downward into the atmospheric band, then smoothly rises back out into the sparse region, makes ONE low rounded crest above the atmosphere, and then curves down into the atmospheric band a SECOND time, ending at the single large capsule. Thus exactly two atmospheric encounters and one intervening rise. The bends are smooth, never sharp bounces off a wall. This line is a schematic history of the capsule’s movement, not several spacecraft. It must never penetrate the Earth surface, circle around the globe, split into alternative paths, reverse direction, or form repeated waves. Magenta is more vivid at the two entry regions; no fiery trail across the empty-space segment. The capsule is descending on the second encounter, and its leading heat shield faces along this final tangent. The capsule does not fire an engine to jump.
+
+Far layer: a small pale cobalt-and-white Moon at upper-left of the picture area, well below and clear of the title. Close to this Moon, a very small simplified orbiter with two dark-blue solar wings and its attached compact return capsule suggests the departure stage. Keep this earlier combined craft subordinate and visibly different from the separated reentry capsule in the foreground. Do not draw a lander flying all the way to Earth. A restrained pale-cyan curved transfer indication leads from this distant Moon-side craft toward the beginning of the magenta reentry path. This is a staged time-compressed process illustration, not a literal scale map or a real snapshot of multiple identical vehicles. Add one unobtrusive cyan caption near the picture’s lower-left: “过程示意，未按比例”. No other diagram labels or numbers.
+
+BOTTOM TWO COLUMNS
+Preserve a calm dark-cobalt area under the picture for two fixed side-by-side text columns, no panel frame or dividing rule. Left column about 55% width, right about 40%, with a clear gutter. White Chinese text, comfortably legible, with balanced wrapping. Do not place text on the bright plasma or clouds. No pink fun-fact box and no new slogan.
+
+Left column exact text:
+“以嫦娥五号为例，上升器月面起飞，在月轨对接并转移样品；轨道器带着返回器飞向地球。近地分离后，返回器借阻力减速、升力抬升，再次进入大气，最后开伞着陆。”
+
+Right column exact text:
+“参考文献：
+国家航天局：嫦娥五号任务完成通报（2020）
+国家航天局：胡浩专访（2024）
+NASA：跳跃式再入说明（2021）”
+
+At the very bottom, centered cyan text, exact and complete:
+“本文为公开信息整理笔记，非严肃学术科普。”
+
+STYLE AND FINAL CHECK
+Bright printed pop-art comic, confident thick black engineering contours, large coarse Ben-Day halftone shadows, flat lively color planes. Cobalt blue / industrial yellow / vivid magenta dominate, cyan accents, white clouds and text. No orange, brown, maroon, gold or photographic fire. No glossy 3D, muddy gradients, dim astrophotography, rulers, magnifiers, microscopic particle close-ups or flags. Scientific clarity before decorative spectacle. Ensure the Moon does not overlap the main title. All Chinese text must be exact with no malformed or missing glyphs; no one-character final lines, no opening punctuation at line ends or closing punctuation at line starts. Keep title, references and disclaimer inside the canvas with comfortable edge clearance. Exact final 1080×1350, 4:5 compact portrait.
