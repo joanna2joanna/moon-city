@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>月球脚印能留多久</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; min-height: 1350px;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  /* 顶条：四段撞色 */
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  /* 品牌 */
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  /* 系列标签 */
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+
+  /* 标题 */
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+
+  /* 段落 */
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+
+  /* 小料卡片 */
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+.nav-fixed{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:12px}
+.nav-btn{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s;line-height:1;user-select:none}
+.nav-btn:hover{background:rgba(0,0,0,0.7)}
+#back-to-top{display:none}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">足迹 · 01</div>
+<div class="title">月球脚印能留多久</div>
+
+<div class="block">
+  <div class="head">人走了，痕迹还在</div>
+  <div class="text">月球上没有风雨冲刷地面，踩进松软月壤的脚印能保存很久。阿波罗宇航员离开数十年后，轨道影像仍能辨认出<strong>行走痕迹</strong>。不过，微小陨石仍在撞击月面，平静的地表也会改变。</div>
+</div>
+
+<div class="block">
+  <div class="head">谁会擦掉脚印</div>
+  <div class="text">撞击还会把碎屑抛向远处，落地后翻动月壤，逐渐破坏脚印的轮廓。脚印能留多久，要看所在位置受到怎样的扰动；撞击发生的时间、地点各不相同，<strong>无法给所有脚印统一期限</strong>。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">轨道照片能辨认宇航员走过的路线，却看不清单个鞋底印。清晰的阿波罗靴印特写，是在<strong>月面近距离拍下</strong>的。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] Speyerer 等 (2016) 月面撞击与翻耕. Nature 538:215–218.<br>[2] Horányi 等 (2015) 月球周围的尘埃云. Nature 522:324–326.<br>[3] NASA (2019) LRO 的十项发现；Apollo 11 Bootprint.</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+<div class="nav-fixed">
+<a id="back-to-top" class="nav-btn" href="#" title="回到顶部">&uarr;</a>
+<a class="nav-btn" href="../review.html" title="回到首页">&lceil;</a>
+</div>
+<script>
+(function(){
+var b=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'flex':'none'});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+<!-- 核实日期：2026-09-22。延伸 #46 足迹与 #133 风化，本期只讲痕迹保存与自然抹除，不复述登月人员或岩石光谱。证据笔记：Speyerer et al. (2016), Quantifying crater production and regolith overturn on the Moon with temporal imaging, Nature 538:215–218, doi:10.1038/nature19829, https://www.nature.com/articles/nature19829 ，公开摘要已核实次生撞击和表层翻耕。独立观测 Horányi et al. (2015), A permanent, asymmetric dust cloud around the Moon, Nature 522:324–326, doi:10.1038/nature14479, https://collaborate.princeton.edu/en/publications/a-permanent-asymmetric-dust-cloud-around-the-moon/ ，LADEE尘埃观测支持持续撞击及抛尘，不能用来独立计算脚印寿命。轨迹证据 https://news.asu.edu/content/lroc-takes-first-look-apollo-landing-sites 及 https://science.nasa.gov/solar-system/moon/10-cool-things-nasas-lunar-reconnaissance-orbiter-is-teaching-us-about-the-moon/ ：轨道可辨成片步行轨迹，不能分辨单个靴印；NASA后者正文获取超时，公开搜索索引有相关段落，路径事实另由ASU原文验证。靴印近景 https://science.nasa.gov/resource/apollo-11-bootprint/ ，AS11-40-5878。反向验证 https://www.nasa.gov/news-release/earths-moon-hit-by-surprising-number-of-meteoroids/ 直接打开：Robinson依据2016研究推测阿波罗行走痕迹在数万年量级消失，因此不能说完全没有寿命估计。约81000年是约99%表层受翻搅的统计尺度，研究层厚2厘米，绝非逐个脚印倒计时；与论文为同源，不充作独立寿命证据。正文不承诺百万年，亦不虚构精确年限。2026-09-16更新 https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/ 支持撞击远距扰动，无单印统一寿命。图示应为月面近景，不能伪装成轨道分辨鞋纹的照片，不画风吹尘沙。 -->
+</body>
+</html>

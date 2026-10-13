@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>月面喊话听得见吗</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; min-height: 1350px;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  /* 顶条：四段撞色 */
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  /* 品牌 */
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  /* 系列标签 */
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+
+  /* 标题 */
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+
+  /* 段落 */
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+
+  /* 小料卡片 */
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+.nav-fixed{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:12px}
+.nav-btn{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s;line-height:1;user-select:none}
+.nav-btn:hover{background:rgba(0,0,0,0.7)}
+#back-to-top{display:none}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">日常 · 02</div>
+<div class="title">月面喊话听得见吗</div>
+
+<div class="block">
+  <div class="head">站在旁边也得用无线电</div>
+  <div class="text">宇航员在月面相隔几步，也不能靠隔空喊话交流。声音需要介质传递振动，月球的<strong>外逸层极其稀薄</strong>，无法像地球空气那样传来人声。两人面对面说话，仍要借助无线电。</div>
+</div>
+
+<div class="block">
+  <div class="head">话音先换成电信号</div>
+  <div class="text">航天服内的麦克风把话音转成电信号，再由无线电设备发送。跨过两人之间空间的是<strong>电磁波</strong>，不需要空气作介质。接收设备把信号还原成声音，同伴才能在头盔里听见。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">航天服里并不安静：风机、泵和气流都会产生噪声。设计人员还得<strong>控制服内噪声</strong>，避免干扰宇航员通话。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] ESA (2003) <i>LISTEN UP!</i><br>[2] NASA (2019) <i>Spacewalk Spacesuit Basics</i>.<br>[3] NASA (2024) xEMU 航天服音频通信系统测试.</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+<div class="nav-fixed">
+<a id="back-to-top" class="nav-btn" href="#" title="回到顶部">&uarr;</a>
+<a class="nav-btn" href="../review.html" title="回到首页">&lceil;</a>
+</div>
+<script>
+(function(){
+var b=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'flex':'none'});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+<!-- 核实日期：2026-10-09。
+选题去重：已读 #15 地月通信延迟、#28 外逸层、#22 孤独和 #156–157；本期解释近距离喊话与无线电的传播区别，不重复网络延迟或车轮。
+直接读取官方页面及摘要：
+https://www.esa.int/Science_Exploration/Space_Science/Space_sensations/LISTEN_UP
+ESA LISTEN UP! (2003)：声波需要物质介质，电磁波无需介质；接收设备还原声音。
+https://www.nasa.gov/wp-content/uploads/2017/05/esfl_es_depending_on_others.pdf
+NASA 教育活动 Depending on Others：太空行走靠无线电、接收设备还原为声音，与 ESA 独立交叉验证。
+https://science.nasa.gov/moon/lunar-atmosphere/
+NASA The Moon's Atmosphere：外逸层稀薄、分子罕有碰撞；结合传播机制用于月面隔空人声判断，不称绝对无气体。
+https://www.nasa.gov/centers-and-facilities/johnson/spacewalk-spacesuit-basics/
+NASA (2019) Spacewalk Spacesuit Basics：麦克风、耳机、服装无线电与风机。
+https://ntrs.nasa.gov/citations/20240007380
+NASA (2024) xEMU Suit Integrated Audio Communications System: Ambient and EVA Pressure Testing System Performance；本轮直接读取官方摘要，未称读过报告全文。风机、泵、气流与通信声学耦合，服内扬声器和麦克风。
+https://science.gsfc.nasa.gov/attic/cosmicopia.gsfc.nasa.gov/qa_sp_ev.html
+NASA Cosmicopia：真空不能传声，但固体内部仍有振动；有气体的舱内可以说话。
+反向检索：声波在固体中的传播、外逸层非绝对真空、航天服内部噪声、新型音频系统不必佩戴通信帽。
+弃用：月球完全没有声音、头盔内绝对安静、所有航天服都用耳机帽、无线电必须先绕地球、外逸层精确密度和未经溯源的声压数值。
+图像边界：密封航天服；无线电线仅为标明的示意，不是肉眼可见声波；人物不接触，不演示固体传声。
+-->
+</body>
+</html>

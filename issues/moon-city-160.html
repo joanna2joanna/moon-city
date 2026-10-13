@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>月球碎片去哪儿</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; min-height: 1350px;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  /* 顶条：四段撞色 */
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  /* 品牌 */
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  /* 系列标签 */
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+
+  /* 标题 */
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+
+  /* 段落 */
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+
+  /* 小料卡片 */
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+.nav-fixed{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:12px}
+.nav-btn{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s;line-height:1;user-select:none}
+.nav-btn:hover{background:rgba(0,0,0,0.7)}
+#back-to-top{display:none}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">引力 · 06</div>
+<div class="title">月球碎片去哪儿</div>
+
+<div class="block">
+  <div class="head">碎了也不会停下来</div>
+  <div class="text">《流浪地球2》把月球炸成碎片后，地球还得躲开残骸。假如月球解体，碎片会<strong>继承原来的运动</strong>，再叠加分离带来的速度。地球引力继续作用，碎片不会因为变小就停在太空。</div>
+</div>
+
+<div class="block">
+  <div class="head">去向要看位置和速度</div>
+  <div class="text">碎片的去向取决于解体的位置、<strong>速度大小和方向</strong>。有的轨迹可能撞向地球，有的可能留在地球周围，也可能飞离地球。评估危险要追踪碎片群，不能只看月球是否已经炸碎。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">行星防御研究会模拟碎片怎样扩散，再判断有多少会撞向地球。<strong>小行星模型</strong>的结果，不能直接套到月球上。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] ESA (2008) <i>Simulation of an explosion in GEO</i>.<br>[2] NASA/JPL <i>Description of Orbits and Ephemerides</i>.<br>[3] King 等 (2021) 小天体解体的行星防御研究.</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+<div class="nav-fixed">
+<a id="back-to-top" class="nav-btn" href="#" title="回到顶部">&uarr;</a>
+<a class="nav-btn" href="../review.html" title="回到首页">&lceil;</a>
+</div>
+<script>
+(function(){
+var b=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'flex':'none'});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+<!-- 事实核实日期：2026-10-12。#160，标题：月球碎片去哪儿；引力06。
+核心问题与#159区别：#159讲潮汐如何导致解体，本期讲假设解体后的碎片运动与危险，不讨论如何实施爆破。
+直接读取ESA原文：https://www.esa.int/ESA_Multimedia/Images/2008/03/Simulation_of_an_explosion_in_GEO 卫星爆炸碎片保有原轨道运动，叠加分离速度；只取普适机制，不把卫星尺寸、速度、时间或成环预测套到月球。
+独立交叉，直接读取NASA/JPL原文：https://ssd.jpl.nasa.gov/orbits_doc.html 轨道根数编码某一时刻的位置与速度；轨迹由初始状态与动力学模型计算。
+补充直接读取：https://nssdc.gsfc.nasa.gov/planetary/factsheet/planetfact_notes.html 逃逸速度的官方定义，支持能量充足且方向适合时可以飞离地球，不表示地球引力变成零。
+直接读取NASA飞行教材：https://science.nasa.gov/learn/basics-of-space-flight/chapter3-4/ 牛顿思想实验、引力下的落地与环绕轨迹；飞离地球的可能性由通常轨道动力学和能量条件推论，不声称该页直接给出月球解体的逃逸结果。三种去向仅为可能性示意，不是月球解体数值模拟，不预测比例、顺序、距离或时间；未声称全部碎片恰好分为三组。
+直接读取研究团队发布：https://www.llnl.gov/article/48066/GET King团队用碎片轨道与扩散速度评估小行星撞击风险。该研究只讨论小天体，不能直接外推整个月球。
+论文：King, P.K. 等 (2021), Late-time small body disruptions for planetary defense, Acta Astronautica 188:367–386. DOI 10.1016/j.actaastro.2021.07.034。出版社检索索引用于核对题名和摘要，正文抓取失败，不声称读过付费全文。
+剧情线索本轮检索：https://zh.wikipedia.org/wiki/流浪地球2 月球解体后地球需要躲避残骸；只作已上映电影的故事引子，不充当科学证据。
+反向核实：LLNL2021模拟显示特定小行星条件下充分提前扩散可降低撞击量，因此不写炸碎必然更危险或炸碎必然安全。NASA教材支持速度与方向改变去向；不写失去整体就失去引力、全体碎片直落、全体碎片必成环、全部在大气中烧尽、核弹能炸碎现实月球。
+Exa MCP在本轮环境不可用，使用公开WebSearch后读取上述官方原文。长江云页面和NASA/JPL月球形成报告PDF本轮抓取失败，未列为本卡已读来源。
+卡面参考文献第三项为中文简写，真实完整论文题名、DOI和研究团队说明见上。
+-->
+</body>
+</html>

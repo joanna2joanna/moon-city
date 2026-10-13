@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>月球车轮的弹性</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; min-height: 1350px;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  /* 顶条：四段撞色 */
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  /* 品牌 */
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  /* 系列标签 */
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+
+  /* 标题 */
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+
+  /* 段落 */
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+
+  /* 小料卡片 */
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+.nav-fixed{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:12px}
+.nav-btn{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s;line-height:1;user-select:none}
+.nav-btn:hover{background:rgba(0,0,0,0.7)}
+#back-to-top{display:none}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">制造 · 03</div>
+<div class="title">月球车轮的弹性</div>
+
+<div class="block">
+  <div class="head">金属车轮怎样贴地</div>
+  <div class="text">月球车驶过石块和松软月壤，需要车轮贴住地面。阿波罗月球车采用<strong>钢丝网轮胎</strong>，承重时网状结构发生弹性变形，扩大接地范围。在设计载荷内，变形后还能恢复形状。</div>
+</div>
+
+<div class="block">
+  <div class="head">弹性也有设计边界</div>
+  <div class="text">阿波罗车轮内部还有<strong>限位骨架</strong>，防止钢丝网过度变形。弹性要与承载能力配合，变形太大会加重钢丝负担。未来车轮还需适应更长任务，耐久、抓地与温度都得一起验证。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">NASA正在低温真空中测试新型<strong>形状记忆合金</strong>，探索可回弹的车轮材料。地面能恢复形状，还不等于月面长期可靠。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] Asnani 等 (2009) <i>The Development of Wheels for the LRV</i>. NASA.<br>[2] NASA (2026) <i>Wheel Designs for Moon Base Mobility</i>.<br>[3] NASA (2026) <i>New Technology Mimics Extreme Cold of the Lunar Night</i>.</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+<div class="nav-fixed">
+<a id="back-to-top" class="nav-btn" href="#" title="回到顶部">&uarr;</a>
+<a class="nav-btn" href="../review.html" title="回到首页">&lceil;</a>
+</div>
+<script>
+(function(){
+var b=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'flex':'none'});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+<!-- 核实日期：2026-10-08。
+已直接读取原始报告全文及两篇 NASA 官方网页：
+[1] Asnani, Delap, Creager (2009), The Development of Wheels for the Lunar Roving Vehicle,
+NASA/TM-2009-215798. https://ntrs.nasa.gov/api/citations/20100000019/downloads/20100000019.pdf
+报告正文 pp.5–10：钢丝网承重变形；刚性轮毂；内部骨架限制过度变形；接地长度影响牵引；更大变形增加钢丝应力。
+[2] https://www.nasa.gov/centers-and-facilities/johnson/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/
+2026-08-17：独立新设计的地面测试，柔顺性、抓地、载荷、耐久需平衡；太硬的钛轮在障碍上弹跳；后续仍需热真空测试。
+[3] https://www.nasa.gov/general/nasa-technology-mimics-extreme-lunar-night/
+2026-05-06：LESTR 在低温真空中测试材料，研究用于未来车轮的形状记忆合金；不等于已在月面长期服役。
+交叉验证：阿波罗车轮报告与 2026 新轮测试均支持适量变形能贴合地形，以及弹性与承载之间需取舍。
+恢复形状限定于设计载荷内；只描述弹性能力，不声称任何变形、任何温度或所有月球车轮均能恢复。
+反向搜索：elastic limit、permanent、stiffness、shape memory lunar temperature limitations。
+另读 NTRS 20240006096 的官方摘要，确认形状记忆车轮存在极地热环境敏感性，不把火星地面试验移植为月球服役证明。
+弃用：具体变形量、轮胎尺寸、速度、无限回弹寿命、真空必然爆胎、所有车轮均为金属网等说法。
+technology.nasa.gov/LEW-TOPS-99 抓取失败，仅作检索线索，未作为已读全文或卡面来源。
+网页标题在卡面为排版而简写，完整原题和 URL 见本注释。
+-->
+</body>
+</html>
