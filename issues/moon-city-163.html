@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<title>月城货物怎么卸</title>
+<style>
+  * { margin:0; padding:0; box-sizing: border-box; }
+  :root {
+    --bg:        #0B121C;
+    --yellow:    #FFE53B;
+    --cyan:      #00E5FF;
+    --pink:      #FF5E8A;
+    --white:     #FFFFFF;
+    --muted:     #8899AA;
+    --card-bg:   #102530;
+  }
+  body {
+    width: 1080px; min-height: 1350px;
+    background: var(--bg); color: var(--white);
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    padding: 48px 78px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  /* 顶条：四段撞色 */
+  .top-bar {
+    width: calc(100% + 156px); height: 6px; margin: -48px -78px 0;
+    background: linear-gradient(90deg, #FFE53B 0%, #FFE53B 25%, #FF5E8A 25%, #FF5E8A 50%, #00E5FF 50%, #00E5FF 75%, #FFE53B 75%, #FFE53B 100%);
+  }
+  /* 品牌 */
+  .brand { text-align: center; }
+  .brand span {
+    display: inline-block;
+    font-size: 22px; font-weight: 800; color: #0B121C;
+    background: var(--yellow);
+    padding: 10px 28px; letter-spacing: 3px;
+    border: 2px solid var(--white);
+    box-shadow: 4px 4px 0 var(--pink);
+  }
+  /* 系列标签 */
+  .series { font-size: 26px; color: var(--cyan); text-align: center; letter-spacing: 4px; font-weight: 700; }
+
+  /* 标题 */
+  .title {
+    font-size: 100px; font-weight: 900; color: var(--yellow);
+    line-height: 1.05; text-align: center; letter-spacing: 5px;
+    text-shadow: 4px 4px 0 var(--pink), 8px 8px 0 rgba(255,94,138,0.3);
+  }
+
+  /* 段落 */
+  .block { }
+  .block .head {
+    font-size: 34px; font-weight: 800; color: var(--cyan);
+    margin-bottom: 12px; letter-spacing: 2px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .block .head::before {
+    content: '';
+    display: inline-block; width: 10px; height: 10px;
+    background: var(--cyan); flex-shrink: 0;
+  }
+  .block .text {
+    font-size: 32px; font-weight: 400; color: var(--white);
+    line-height: 1.68;
+    padding: 0 22px;
+    border-left: 3px solid var(--cyan); border-right: 3px solid transparent;
+  }
+  .text strong { color: var(--yellow); font-weight: 800; }
+
+  /* 小料卡片 */
+  .tidbit {
+    background: var(--card-bg); border-radius: 0;
+    padding: 32px 44px;
+    border: 5px solid var(--pink);
+    box-shadow: 6px 6px 0 rgba(255,94,138,0.25);
+  }
+  .tidbit .txt { font-size: 32px; font-weight: 400; color: var(--white); line-height: 1.68; }
+  .tidbit .txt strong { color: var(--yellow); font-weight: 800; }
+
+  .ref { font-size: 24px; color: var(--muted); line-height: 1.6; text-align: center; }
+  .disclaimer { font-size: 24px; color: var(--cyan); line-height: 1.5; text-align: center; }
+.nav-fixed{position:fixed;bottom:28px;right:28px;z-index:9999;display:flex;flex-direction:column;gap:12px}
+.nav-btn{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.2);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration:none;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .2s;line-height:1;user-select:none}
+.nav-btn:hover{background:rgba(0,0,0,0.7)}
+#back-to-top{display:none}
+</style>
+</head>
+<body>
+<div class="top-bar"></div>
+<div class="brand"><span>张走走想在月球盖座城</span></div>
+<div class="series">物流 · 01</div>
+<div class="title">月城货物怎么卸</div>
+
+<div class="block">
+  <div class="head">先把甲板与月面接起来</div>
+  <div class="text">货物落地后，还要从着陆器上卸下。甲板高度、货物形状和接口各不相同，研究方案包括<strong>坡道、升降装置和机械臂</strong>。卸货方式要与着陆器一起设计，不能临时找工具。</div>
+</div>
+
+<div class="block">
+  <div class="head">卸下来，还要接着运</div>
+  <div class="text">卸货设备要接上月面运输车，将货物运往仓储或使用地点。货箱<strong>抓取、固定和供电接口</strong>需要匹配；有温控需求的货物，交接时需维持所需环境。机器人还需识别障碍与设备异常。</div>
+</div>
+
+<div class="tidbit">
+  <div class="txt">NASA的<strong>LANDO项目</strong>研究自动卸货：既要应对倾斜甲板，也要判断货物能否安全提起。方案仍需试验验证。</div>
+</div>
+
+<div class="ref">参考文献：<br>[1] Gill 等 (2022) <i>Lunar Surface Cargo Offloading Concepts</i>.<br>[2] NASA (2024) <i>Lunar Surface Cargo</i> 白皮书.<br>[3] Cline 等 (2023) LANDO 自动卸货研究.</div>
+<div class="disclaimer">本文为公开信息整理笔记，非严肃学术科普。</div>
+<div class="nav-fixed">
+<a id="back-to-top" class="nav-btn" href="#" title="回到顶部">&uarr;</a>
+<a class="nav-btn" href="../review.html" title="回到首页">&lceil;</a>
+</div>
+<script>
+(function(){
+var b=document.getElementById('back-to-top');
+window.addEventListener('scroll',function(){b.style.display=window.scrollY>400?'flex':'none'});
+b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+<!-- 核实日期：2026-10-15。#163，物流01，用户确认标题：月城货物怎么卸。
+[1] Gill, Tracy R. 等，Lunar Surface Cargo Offloading Concepts，ICES-2022-38，2022年7月。直接读取原始论文：https://ntrs.nasa.gov/api/citations/20220005086/downloads/Cargo%20Offloading%20-%20ICES_template_2022%20-%20Final.pdf 。第II节讨论接口、甲板高度、通用货箱及服务；第IV节表3列坡道、升降机构、机械臂等方案；V节讨论可靠性、地形与自动作业。仅引用方案类别及匹配关系，不引用旧运力与时间表，不将所有方案说成已月面实用。
+[2] NASA，Lunar Surface Cargo，2024 Moon to Mars Architecture Concept Review白皮书。直接读取：https://www.nasa.gov/wp-content/uploads/2024/06/acr24-lunar-surface-cargo.pdf 。第1页讨论卸货与地面移动接口，及电力、通信、数据、散热服务可能需延续至卸货后货物正常工作。本期有温控需求为条件限制，不说每件货物都必须温控或带供电接口。仓储为未来月城物流场景，不声称NASA已有月面仓库。
+[3] Cline, J. 等 (2023)，LANDO: Developing Autonomous Payload Offloading Capabilities for Lunar Surface Operations。NASA NTRS原始项目摘要：https://ntrs.nasa.gov/citations/20230004222 。目标包括倾斜甲板卸货、判断货物可否安全处理，以及将货物交到移动平台，自动故障检测与处理。明确为研究开发目标，未声称已完成月面自动卸货。
+2026最新公开背景交叉检索并读取：https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/ ，2026-08-04。仅确认货运基础设施仍处于开发推进背景，不采用计划日期或运力，不把着陆器完成着陆等同于月城物流链已成熟。
+反向验证：某些载荷可留在着陆器上工作，本期的“货物”特指需要卸载转运的物流载荷，不说所有载荷都必须卸下。无统一甲板高度、无一套设备适合所有着陆器；不复制#117中的“翻车风险六倍”等未经本轮验证表述，不讲低重力吊装力学。
+图示为未来升降托盘向运输车交接的概念，非NASA具体定型硬件，不标无来源数值、不画同时卸货并点火。货物固定、平台支撑和运输车接驳需要空间连续，不让箱子悬浮或从高处自由坠落。
+-->
+</body>
+</html>
